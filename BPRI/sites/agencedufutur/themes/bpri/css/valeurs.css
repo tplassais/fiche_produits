@@ -1,0 +1,86 @@
+#wrappercarousel {
+	width: 100%;
+}
+
+#valeurs {
+    width: 905px;
+    height: 700px;
+    overflow: visible;
+	margin: auto;
+	z-index: 100;
+	padding-left: 30px;
+}
+
+
+
+.cloudcarousel {
+    position: absolute;
+    width: 668px;
+    height: 603px;
+	left: 206px;
+	background-color: white;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.titre-valeur {
+	padding-top:10px;
+	top:5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: BlairITCStd;
+	color: #990099;
+	height: 60px;
+	overflow: hidden;
+	font-size: 15pt;
+}
+
+.details-valeur {
+	overflow: hidden; 
+	top: 65px;
+	text-align: justify;
+	height: 520px;
+	/*Pour iPad sous iOS 5, mais on nécessaire car javascript iscroll.js compatible : -webkit-overflow-scrolling: touch;*/
+}
+
+.details-valeur p {
+	color: #555555;
+}
+
+.details-valeur h3 {
+	text-transform: uppercase;
+	font-family: BlairITCStd;
+	color: #2872ae;
+	font-size: 12px;
+}
+
+.titre-valeur, .details-valeur {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+#left-but {
+	margin-top: -400px;
+	margin-left: 2px;
+	float: left;
+}
+
+#right-but {
+	margin-top: -400px;
+	float: right;
+}
+
+/*Ajout pour scroll vertical du texte*/
+.valeur-scrollview-buttons {
+	float: right;
+	margin-right:10px;
+	margin-top: 65px;
+}
+
+.valeur-scrollview-buttons .down-arrow {
+	position: absolute;
+	bottom:10px;
+}

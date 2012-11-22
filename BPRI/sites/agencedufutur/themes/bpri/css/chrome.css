@@ -1,0 +1,13 @@
+/**
+ * Adaptivetheme automates loading of IE conditional stylsheets.
+ * See themename_preprocess_html() in template.php in your sub-theme.
+ */
+ 
+ /*
+@font-face { font-family: BlairITCStd; src: url('font/BlairITCStd.otf'); } 
+@font-face { font-family: BlairITCStd; font-weight: bold; src: url('font/BlairITCStd-Bold.otf'); }
+@font-face { font-family: GIL; src: url('font/GIL_____.TTF'); } 
+@font-face { font-family: GIL; font-weight: bold; src: url('font/GILB____.TTF'); } 
+@font-face { font-family: GIL; font-style: italic; src: url('font/GILI____.TTF'); } 
+@font-face { font-family: GIL; font-style: italic; font-weight: bold; src: url('font/GILBI___.TTF'); } 
+*/

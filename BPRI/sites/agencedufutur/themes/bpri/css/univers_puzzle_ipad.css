@@ -1,0 +1,98 @@
+/* AREA */
+
+.area_puzzle {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+/* TOP - 90 */
+/* LEFT -30 */
+
+#area_pro{
+	top:280px; 
+	left:390px; 
+}
+
+#area_part{
+	top:280px; 
+	left:390px; 
+}	
+
+/* POPUP */
+
+.menu_popup{
+	display:none;
+	top:310px; 
+	left:355px; 
+}
+
+/* PRO */
+
+#area_pro_me_develo{
+	top:270px; 
+	left:710px;
+}
+#area_pro_mon_aveni{
+	top:270px; 
+	left:180px;
+}
+#area_pro_me_lancer{
+	top:160px; 
+	left:580px; 	
+}
+#area_pro_mes_encai{
+	top:500px; 
+	left:310px; 	
+}
+#area_pro_mes_salar{
+	top:390px; 
+	left:180px; 
+}
+#area_pro_proteger_{
+	top:390px; 
+	left:710px; 
+}
+#area_pro_mon_quoti{
+	top:160px; 
+	left:320px; 
+}
+#area_pro_optimiser{
+	top:500px; 
+	left:580px; 
+}
+
+/* PARTICULIER */
+	
+	
+#area_part_ma_famil{
+	top:220px; 
+	left:210px; 
+}
+#area_part_ma_maiso{
+	top:220px; 
+	left:680px; 
+}
+#area_part_ma_voitu{
+	top:350px; 
+	left:700px; 
+}
+#area_part_mon_arge{
+	top:350px; 
+	left:190px; 
+}
+#area_part_mon_aven{
+	top:490px; 
+	left:590px; 
+}
+#area_part_mon_patr{
+	top:490px; 
+	left:290px; 
+}
+
+#area_part_moi_____{
+	top:130px; 
+	left:440px;
+}
+ 
+

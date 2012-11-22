@@ -1,0 +1,95 @@
+
+#field_zoneagence_desc_text{
+	margin: 10px;
+	color:#444;	
+}
+
+#field_zoneagence_visuel_img{
+	margin: 10px;
+	text-align: center;
+}
+
+#img-zone-agence-fond, #img-zone-agence-fond img {
+    width: 1080px;
+	height: 580px;
+	position: absolute;
+}
+
+#img-zone-agence {
+	width: 700px;
+	height: 525px;
+    position: absolute;
+	margin-left: 280px;
+	background: transparent url("../images/p1f_accueil/zone-front.png") no-repeat center center;
+}
+
+#content-zone-agence-wrapper {
+	width: 320px;
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 20px;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 1px;
+}
+
+#content-zone-agence-front-wrapper {
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 50px;
+}
+
+#content-zone-agence-front-wrapper .print-link,
+#content-zone-agence-front-wrapper .links.inline,
+#content-zone-agence-wrapper .print-link,
+#content-zone-agence-wrapper .links.inline {
+	display:none;
+	visibility:hidden;
+}
+
+#content-zone-agence-front-wrapper .field-type-text {
+	color: #FFFFFF;
+	font-family: BlairITCStd;
+	width: 400px;
+	float: right;
+	margin-top: -90px;
+	font-size: 16px;
+}
+
+#content-zone-agence-content .field-type-text .field-item {
+	color: #64757D;
+	padding: 12px;
+	/*font-family: BlairITCStd;*/
+}
+
+#content-zone-agence-content .field-type-image .field-item {
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-top: 19px;
+}
+
+#content-zone-agence-header {
+	/*background: #58C4F2 url('../images/p1f_accueil/btn_fermer_popup.png') no-repeat right top;*/
+	background-color: #58C4F2;
+	color: white;
+    -webkit-border-radius: 9px 9px 0px 0px;
+	-moz-border-radius: 9px 9px 0px 0px;
+	border-radius: 9px 9px 0px 0px;
+	min-height: 30px;
+	font-family: BlairITCStd;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 30px;
+}
+
+#content-zone-agence-header-close {
+	float:right;
+	margin-top: -30px;
+}
+
+
+
+

@@ -1,0 +1,117 @@
+#universe {
+	/*
+	position: absolute;
+	left: 100px;
+	top: 80px;
+	*/
+	height: 590px;
+	overflow: hidden;
+}
+
+#div_images {
+	width: 3240px;
+	height: 1770px;
+	z-index: -1;
+	background-color: #729424;
+}
+
+.puzzle {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 1080px;
+	height: 590px;
+}
+
+#picto_pro {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+
+#picto_part {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+#picto_bon_plan {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_popup ul {
+	padding-left: 0;
+	margin-left: 0;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	z-index: 105;
+	color: #606060;
+	font-size: 17px;
+	font-family: GIL;
+}
+
+
+.menu_popup {
+	position: absolute;
+	width: 320px;
+	z-index: 106;
+}
+
+.close_popup {
+	color: white;
+	position: absolute;
+	z-index: 106;
+	font-size: 23px;
+	text-decoration: none;
+	right: 10px;
+	top: 0;
+}
+
+.menu_popup h2 {
+	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	border-top-left-radius: 15px;
+	text-transform: uppercase;
+	font-family: BlairITCStd;
+	text-align: center;
+	background: none;
+	background-color: #59C5F3;
+	color: white;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: auto;
+}
+
+.menu_popup li {
+	background: url('../images/all/bg_li.png') repeat-x;
+	border-bottom: #59C5F3 solid 1px;
+	height: auto;
+	padding: 5px 0 5px 10px;
+}
+
+.menu_popup li.leaf {
+	list-style: none;
+}
+
+.menu_popup li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.menu_popup .menu a {
+	display: inline-block;
+	width: 95%;
+}
+
+.menu_popup li:last-child {
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom: none;
+}

@@ -1,0 +1,54 @@
+<?php
+/*
+* Author: Joel R Finkel (Systems by Design of Illinois) / Nicolas Krzyzanowski (Capgemini)
+* Date: 2011-02-27 / 2012-29-02
+
+* Enables developers to override page.tpl.php:
+*  <site>/{alias} can be themed with page--{alias}.tpl.php
+*
+*  Examples:
+*  www.mysite.org/tos can be themed with
+*      page--tos.tpl.php
+*
+*  www.mysite.org/tos/sub1 can be themed with
+*      page--tos.tpl.php
+*      page--tos--sub1.tpl.php 
+*
+*  www.mysite.org/tos/sub1/sub2 can be themed with
+*      page--tos.tpl.php
+*      page--tos--sub1.tpl.php
+*      page--tos--sub1--sub2.tpl.php
+*/
+
+function alias_suggestion_preprocess_page(&$vars, $hook) 
+{
+  // only do this for page-type nodes and only if Path module exists
+  if (module_exists('path') && isset($vars['node']) && $vars['node']->type == 'page')
+  {
+    // look up the alias from the url_alias table
+    $source = 'node/' .$vars['node']->nid;
+    $alias = db_query("SELECT alias FROM {url_alias} WHERE source = '$source'")->fetchField();
+
+    if ($alias != '')
+    {
+      // build a suggestion for every possibility
+      $parts = explode('/', $alias);
+      $suggestion = '';
+      foreach ($parts as $part)
+      {
+        if ($suggestion == '')
+        {
+          // first suggestion gets prefaced with 'page--'
+          $suggestion .= 'page__' . $part;
+        }
+        else
+        {
+          // subsequent suggestions get appended
+          $suggestion .= '__' . $part;
+        }
+        // add the suggestion to the array
+        $vars['theme_hook_suggestions'][] = $suggestion;
+      }
+    }
+  }
+}

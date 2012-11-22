@@ -1,0 +1,25 @@
+/* html elements */
+
+/**
+ * The default font size is 16px x 81.3% = 13px
+ * Use http://pxtoem.com to calculate proper font size and scale.
+ *
+ * The font size is set on the html element so we can dynamically
+ * resize the font using body classes.
+ */ 
+
+html {
+  background: url('../images/all_backgrounds/background_ipad.jpg') no-repeat top center;
+}
+
+body{
+	height: auto;
+}
+
+h1 {
+  font-size: 1.338em;
+}
+
+
+
+

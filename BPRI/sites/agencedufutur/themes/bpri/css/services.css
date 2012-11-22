@@ -1,0 +1,131 @@
+#ou-aller-wrapper {
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+#ou-aller-images {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+
+#ou-aller-background {
+	position: absolute;
+	z-index: 1;
+	right: 90px;
+}
+
+#ou-aller-background-noir{
+	position: absolute;
+	z-index: 1;
+	right: 90px;
+}
+
+#wrapper-layers {
+    position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+.layer {
+	position: absolute;
+	top: 0;
+	right: 90px;
+}
+
+#ou-aller-pour-menu {
+	width: 320px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 20px;
+	background-color: white;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 1px;
+	z-index: 3;
+}
+
+#scroll-wrapper {
+	overflow: hidden;
+	max-height: 351px;/*multiple de 39*/
+}
+
+#ou-aller-pour-menu  ul.menu, #ou-aller-pour-menu .menu .expanded ul.menu  {
+	margin-left: 0;
+	color: #606060;
+	background: white;
+	font-size: 17px;
+	font-family: GIL;
+	padding-top: 1px;
+}
+
+#ou-aller-pour-menu h2 {
+	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	border-top-left-radius: 15px;
+	text-transform: uppercase;
+	font-family: BlairITCStd;
+	text-align: center;
+	background: #59C5F3;
+	color: white;
+	padding-top: 5px;
+}
+
+#ou-aller-pour-menu .menu li {
+	background: url('../images/all/bg_li.png') repeat-x;
+	border-bottom: #59C5F3 solid 1px;
+	border-top: #59C5F3 solid 1px;
+	margin-top: -1px;
+	padding: 5px 0 0 0px;
+	overflow: hidden;
+	list-style: none;
+	background-size : auto 100%;
+}
+
+#ou-aller-pour-menu .menu li a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+	width: 95%;
+	margin-left : 10px;
+}
+
+#ou-aller-pour-menu .menu .expanded ul.menu li.last  {
+	border-bottom: none;
+}
+
+#ou-aller-pour-menu .menu .expanded ul.menu li.first  {
+	border-top: none;
+}
+
+#ou-aller-pour-menu .menu .expanded ul.menu li {
+	background: white;
+	margin-right: 10px;
+	border-bottom: #dedede solid 1px;
+	border-top: #dedede solid 1px;
+	margin-top: -1px;
+	padding-left : 10px;
+}
+
+
+
+#ou-aller-pour-menu .menu .expanded {
+	height: auto;
+}
+
+#ou-aller-pour-menu .menu li, #ou-aller-pour-menu .menu .expanded a, #down-arrow, #up-arrow {
+	min-height: 32px;
+}
+
+#down-arrow, #up-arrow {
+	text-align: center;
+	padding-top: 5px;
+}
+
+#down-arrow img, #up-arrow img {
+	margin: auto;
+}

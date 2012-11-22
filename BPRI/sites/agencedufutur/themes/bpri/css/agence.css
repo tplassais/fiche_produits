@@ -1,0 +1,153 @@
+/* TEMPLATE COMMUN */
+
+.p{
+	font-family: GIL;
+	color:#444;	
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+/* Carré blanc avec les bords arrondis */
+.block-white-container{
+  margin: 0 auto;
+  background-color: #FFF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  -moz-box-shadow: 0px 0px 20px #15458d;
+  -webkit-box-shadow: 0px 0px 20px #15458d;
+  box-shadow: 0px 0px 10px #15458d;
+  height:510px;
+  width: 700px;
+}
+
+.block-white-inbox{
+  height:510px;
+  overflow : auto;
+  padding-right : 10px;
+  margin-right : -20px;
+}
+
+/* titre blanc */
+#title-white{
+	text-align: center;
+	color: #FFF;
+	text-transform:uppercase;
+	font-size: 3em;
+	background: url('../images/all/double_traits_titre.png') no-repeat bottom center;
+	font-family: BlairITCStd;
+	font-weight: normal;	
+	/*text-shadow: 0 0 0.4em #DDEBF7;*/	
+	height: 128px;
+	line-height: 128px
+}
+
+#title-white-div{
+	vertical-align: bottom;
+	display: inline-block;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+}
+
+
+/* TEMPLATE MENU FOOTER */
+
+footer {
+	height : 50px;	
+}
+
+.region-footer{
+	padding-top : 20px;
+	background : url('../images/all/trait_footer.png') no-repeat top center;
+	/*background-color : red;*/
+}
+
+.region-footer h2 {
+	display : none;
+}
+
+#block-menu-menu-navigation-base-p1face {
+	float : left;
+	z-index : 300;
+}
+
+#block-menu-menu-navigation-p1face div.block-content{
+	text-align : center;
+}
+
+
+#block-menu-menu-navigation-p1face ul.menu{
+	display : inline-block;
+	margin-left : -227px;
+}
+
+#block-menu-menu-navigation-base-p1dos {
+	float : left;
+	z-index : 300;
+}
+
+#block-menu-menu-navigation-besoin-p1dos div.block-content {
+	text-align : center;
+}
+
+#block-menu-menu-navigation-besoin-p1dos ul.menu {
+	display : inline-block;
+	margin-left : -227px;
+}
+
+#block-menu-menu-navigation-p1dos div.block-content {
+	text-align : center;
+}
+
+#block-menu-menu-navigation-p1dos ul.menu {
+	display : inline-block;
+	margin-right : 240px;
+}
+
+#block-menu-menu-navigation-p2face div.block-content{
+	text-align : center;
+}
+
+#block-menu-menu-navigation-p2face ul.menu {
+	display : inline-block;
+}
+
+ 
+.region-footer li {
+	margin-left:2px;
+	float : left;
+ }
+ 
+ .region-footer li.leaf {
+	list-style-type : none;
+	list-style-image : none;
+ }
+ 
+.region-footer ul li a {
+	background-image : url(../images/all_menus/btn_blanc.png);
+	background-repeat : no-repeat;
+	background-position: center top; 
+	color : white;
+	text-decoration : none;
+	text-align : center;
+	padding : 5px;
+	padding-top : 70px;
+	font-family: BlairITCStd;
+	width : 60px;
+	font-size : 11px;
+	width : 100px;
+	display : block;
+ }
+ 
+.region-footer ul li.active-trail {
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+}
+ 
+ 
+ .region-footer ul li a.active-trail {
+	/*color : #0987AF;*/
+	color : black;
+ }

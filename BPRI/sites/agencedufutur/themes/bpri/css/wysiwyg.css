@@ -1,0 +1,55 @@
+@font-face { font-family: BlairITCStd; src: url('font/BlairITCStd.eot'); } 
+@font-face { font-family: BlairITCStd; font-weight: bold; src: url('font/BlairITCStd-Bold.eot'); }
+@font-face { font-family: GIL; src: url('font/GIL_____.eot'); } 
+@font-face { font-family: GIL; font-weight: bold; src: url('font/GILB____.eot'); } 
+@font-face { font-family: GIL; font-style: italic; src: url('font/GILI____.eot'); } 
+@font-face { font-family: GIL; font-style: italic; font-weight: bold; src: url('font/GILBI___.eot'); } 
+
+/* pour chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face { font-family: BlairITCStd; src: url('font/BlairITCStd.otf'); } 
+	@font-face { font-family: BlairITCStd; font-weight: bold; src: url('font/BlairITCStd-Bold.otf'); }
+	@font-face { font-family: GIL; src: url('font/GIL_____.TTF'); } 
+	@font-face { font-family: GIL; font-weight: bold; src: url('font/GILB____.TTF'); } 
+	@font-face { font-family: GIL; font-style: italic; src: url('font/GILI____.TTF'); } 
+	@font-face { font-family: GIL; font-style: italic; font-weight: bold; src: url('font/GILBI___.TTF'); } 
+}
+
+/* texte */
+
+p{
+	font-family: GIL;
+	font-family: GIL;
+	color:#444;	
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+ul{
+	font-family: GIL;
+	color:#444;	
+	font-size: 12px;
+}
+
+h1{
+	font-family: BlairITCStd;
+	font-weight: bold;
+	color:#444;
+	font-size: 14px;
+}
+
+h2{
+	font-family: GIL;
+	font-weight: bold;
+	font-size: 14px;
+	color:#444;
+}
+
+/*mentions*/
+address{
+	font-family: GIL;
+	color: grey;
+	font-size: 11px;
+	font-style: normal;
+}

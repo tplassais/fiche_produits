@@ -1,0 +1,91 @@
+10
+
+dir
+0
+http://frntesvn/svn/PocClub/PocClub/iBP-AgenceDuFutur/trunk/agencedufutur/modules/imce_filefield
+http://frntesvn/svn/PocClub/PocClub
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+c4b48d28-a65b-0410-9236-8a4b21c40f6a
+
+LICENSE.txt
+file
+
+
+
+add
+
+imce_filefield.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+imce_filefield.module
+file
+
+
+
+add
+
+imce_filefield.css
+file
+
+
+
+add
+
+imce_filefield.inc
+file
+
+
+
+add
+
+imce_filefield.info
+file
+
+
+
+add
+
+imce_filefield.js
+file
+
+
+
+add
+
+README.txt
+file
+
+
+
+add
+

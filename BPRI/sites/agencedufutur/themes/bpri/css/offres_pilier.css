@@ -1,0 +1,35 @@
+#title-white{
+	margin-bottom: 120px;	
+}
+
+#buttons{
+	z-index: 1000;
+}
+
+#left-but {
+	margin-top: -360px;
+	margin-left: 20px;
+	float: left;
+}
+
+#right-but {
+	margin-top: -360px;
+	margin-right: 20px;
+	float: right;
+}
+
+
+.badge2 {
+	margin-left: 8px;
+	margin-right: 8px;
+	float: left;
+}
+
+.popup-astuce .bottom-popup {
+	margin-left: 88px;
+}
+
+.popup-qrcode .bottom-popup {
+	margin-left: 155px;
+}
+

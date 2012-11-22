@@ -1,0 +1,6 @@
+name = HTML5 Appcache
+description = Allows your site to store resources for offline access using HTML5 offline support.
+core = 7.x
+configure = admin/config/services/appcache
+scripts[] = appcache.js
+

@@ -1,0 +1,95 @@
+/* AREA */
+
+.area_puzzle {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+#area_pro{
+	top:370px; 
+	left:420px; 
+}
+
+#area_part{
+	top:370px; 
+	left:420px; 
+}
+
+/* POPUP */
+
+.menu_popup{
+	display:none;
+	top:400px; 
+	left:385px; 
+}
+
+/* PRO */
+
+#area_pro_me_develo{
+	top:360px; 
+	left:740px;
+}
+#area_pro_mon_aveni{
+	top:360px; 
+	left:210px;
+}
+#area_pro_me_lancer{
+	top:250px; 
+	left:610px; 	
+}
+#area_pro_mes_encai{
+	top:590px; 
+	left:340px; 	
+}
+#area_pro_mes_salar{
+	top:480px; 
+	left:210px; 
+}
+#area_pro_proteger_{
+	top:480px; 
+	left:740px; 
+}
+#area_pro_mon_quoti{
+	top:250px; 
+	left:350px; 
+}
+#area_pro_optimiser{
+	top:590px; 
+	left:610px; 
+}
+
+/* PARTICULIER */
+	
+	
+#area_part_ma_famil{
+	top:310px; 
+	left:240px; 
+}
+#area_part_ma_maiso{
+	top:310px; 
+	left:710px; 
+}
+#area_part_ma_voitu{
+	top:440px; 
+	left:730px; 
+}
+#area_part_mon_arge{
+	top:440px; 
+	left:220px; 
+}
+#area_part_mon_aven{
+	top:580px; 
+	left:620px; 
+}
+#area_part_mon_patr{
+	top:580px; 
+	left:320px; 
+}
+
+#area_part_moi_____{
+	top:220px; 
+	left:470px;
+}
+
+
