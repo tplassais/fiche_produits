@@ -1,0 +1,1 @@
+# Test de différents framework permettant de faire un carrousel / slide en HTML5
