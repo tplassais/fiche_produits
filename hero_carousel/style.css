@@ -1,0 +1,302 @@
+/*------------------------------------------------------------
+
+ Paul Welsh (paulwelsh.info) - Global CSS
+
+ Copyright (c) Paul Welsh
+
+ ...but if my code can help you, feel free to use it!
+
+ Author: Paul Welsh
+
+ Last Edited: p.welsh - 18/04/2011
+
+ Notes (and credit where credit is due!!):
+
+ - Uses elements from 'HTML5 Boilerplate' & 'Less Framework'
+   http://html5boilerplate.com/
+   http://lessframework.com/
+
+ - Media Queries for 'Tablet' & 'Mobile' Devices
+
+ - Includes 'Print' CSS to reduce http requests
+
+------------------------------------------------------------*/
+
+
+/* @media screen styles (DO NOT REMOVE)
+------------------------------------------------------------*/
+
+@media screen {
+
+
+/* Reset & Minimal Styles (DO NOT EDIT)
+------------------------------------------------------------*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+strong { font-weight: bold; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+a img {border: 0;}
+
+
+/* Primary Styles
+------------------------------------------------------------*/
+
+html {
+	border-top: 5px solid #D21034;
+	background: #fff;
+	position: relative;
+	}
+
+	body {
+		font: 16px/1.7em ff-tisa-web-pro-1, ff-tisa-web-pro-2, Georgia, Times, Serif;
+		color: #555;
+		-webkit-tap-highlight-color: #D21034;
+		-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+		}
+		
+		#page {
+			max-width: 640px;
+			padding: 0 48px 24px;
+			}
+		
+		#page:first-child{
+			padding: 72px 48px 24px 290px;
+			}
+
+			h1 {
+				font-size: 24px;
+				font-weight: normal;
+				line-height: 1.7em;
+				padding-bottom: 20px;
+				color: #D21034;
+				}
+	
+				h1 b {
+					font-family: goudy-bookletter-1911-1, goudy-bookletter-1911-2, Baskerville, Palatino, "Book Antiqua", serif;
+					font-size: 36px;
+					font-style: italic;
+					line-height: 1em;
+					padding-right: 2px;
+					vertical-align: bottom;
+					}
+				
+				/* add a little extar padding for the goudy ampersand */	
+				.wf-goudybookletter19111goudybookletter19112-n4-active h1 b {
+					padding-right: 5px;
+					}
+				
+			h2 {
+				font-size: 16px;
+				font-weight: normal;
+				line-height: 1.7em;
+				padding-bottom: 20px;
+				color: #D21034;
+				}
+	
+			p {
+				margin-bottom: 1em;
+				widows: 3;
+				}
+				
+			ul {
+				margin-bottom: 1em;
+				}
+				
+			figure {
+				position: absolute;
+				top: 60px;
+				left: 60px;
+				width: 200px;
+				height: 200px;
+				}
+				
+				figure img {
+					height: 100%;
+					width: 100%;
+					vertical-align: top;
+					}
+				
+			pre {
+				color: #D21034;
+				margin-bottom: 24px;
+				}
+			
+			em {
+				font-style: italic;
+				}
+				
+			dt{
+				font-size: 16px;
+				font-weight: normal;
+				line-height: 1.7em;
+				padding-bottom: 1em;
+				color: #D21034;
+				}
+						
+				dd{
+					padding: 0 0 24px 0;
+					}
+					
+					dd li {
+						list-style: none;
+						}
+	
+			aside ul {
+				padding-top: 1em;
+				margin-left: -5px;
+				}
+	
+				aside li {
+					list-style: none;
+					display: inline;
+					padding: 0 8px 0 0;
+					}
+					
+					aside li img {
+						height: 48px;
+						width: 48px;
+						opacity: 0.3;
+						border-radius: 50px;
+						-webkit-transition: ease .3s opacity;
+						   -moz-transition: ease .3s opacity;
+						        transition: ease .3s opacity;
+						}
+						
+					aside li a:hover img {
+						opacity: 0.8;
+						}
+	
+			a, b {
+				color: #D21034;
+				text-decoration: none;
+				}
+				
+			abbr[title], 
+			dfn[title] {
+				border: 0;
+				}
+
+	::selection {
+		background: #D21034;
+		color: #fff;
+		}
+
+	::-moz-selection {
+		background: #D21034;
+		color: #fff;
+		}
+
+	img::selection {
+		background: transparent;
+		}
+
+	img::-moz-selection	{
+		background: transparent;
+		}
+		
+	hr{
+		width: 90%;
+		color: #D21034;
+		background-color: #D21034;
+		height: 3px;
+		}
+
+
+} /* End '@media screen' (DO NOT REMOVE) */
+
+
+/* Media Queries
+------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+
+	#page {
+		padding: 208px 24px 12px!important;
+		}
+		
+		h1 {
+			text-align: center;
+			}
+		
+		figure {
+			position: absolute;
+			width: 160px;
+			height: 160px;
+			top: 28px;
+			margin-left: -80px;
+			left: 50%;
+			}
+			
+		aside ul {
+			text-align: center;
+			margin-left: 0;
+			}
+
+			aside li {
+				padding: 0 4px;
+				}
+	
+}
+
+/* Print Layout
+------------------------------------------------------------*/
+
+@media print {
+
+	* { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+	-ms-filter: none !important; }
+	a, a:visited { color: #520 !important; text-decoration: underline; font-weight: bold;}
+	a[href]:after { content: " (" attr(href) ")"; }
+	abbr[title]:after { content: " (" attr(title) ")"; }
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+	thead { display: table-header-group; }
+	tr, img { page-break-inside: avoid; }
+	@page { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3{ page-break-after: avoid; }
+	.print-select{ display: block; }
+
+	/* Custom Print Styles */
+
+	body{
+		font: 12pt/1.5em "Helvetica Neue", Helvetica, Arial, Verdana, Sans-Serif;
+		}
+
+}
