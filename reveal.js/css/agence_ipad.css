@@ -1,0 +1,126 @@
+@font-face { font-family: BlairITCStd; src: url('font/BlairITCStd.otf'); } 
+@font-face { font-family: BlairITCStd; font-weight: bold; src: url('font/BlairITCStd-Bold.otf'); }
+@font-face { font-family: GIL; src: url('font/GIL_____.TTF'); } 
+@font-face { font-family: GIL; font-weight: bold; src: url('font/GILB____.TTF'); } 
+@font-face { font-family: GIL; font-style: italic; src: url('font/GILI____.TTF'); } 
+@font-face { font-family: GIL; font-style: italic; font-weight: bold; src: url('font/GILBI___.TTF'); } 
+
+
+/*on masque le menu du bas*/
+#block-menu-menu-navigation-p1dos ul.menu {
+	display : none;
+}
+
+	
+/* titre blanc */
+#title-white{
+	width: 1024px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#content {
+	height : 500px;
+}
+	
+#espace_du_haut{
+	display: none;
+}	
+
+/* TEMPLATE PAGE (PMR) */
+
+.pmr{
+	display: none;
+}
+
+.region-footer{
+	width: 1280px;
+}
+
+ 
+ #bouton_retour {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_retour.png);
+ }
+ 
+ #bouton_accueil {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_accueil.png);
+ }
+ 
+ #bouton_ouallerpour {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_ouallerpour.png);
+ }
+ 
+ #bouton_agence {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_agence.png);
+ }
+ 
+ #bouton_equipe {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_equipe.png);
+ }
+ 
+ #bouton_categorie1 {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_categorie1.png);
+ }
+ 
+  #bouton_categorie2 {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_categorie2.png);
+ }
+ 
+  #bouton_categorie3 {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_categorie3.png);
+ }
+ 
+  #bouton_categorie4 {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_categorie4.png);
+ }
+ 
+  #bouton_tarifs {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_tarifs.png);
+ }
+ 
+  #bouton_aeras {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_aeras.png);
+ }
+ 
+  #bouton_taux {
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_taux.png);
+ }
+ 
+   #btn_bonsplans{
+	background-image : url(http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all_menus/btn_bon_plan2.png);
+ }
+
+
+/* TEXTE RICHE */
+
+h1{
+	font-family: BlairITCStd;
+	font-weight: bold;
+	color:#444;
+	font-size: 14px;
+}
+
+h2{
+	font-family: GIL;
+	font-weight: bold;
+	font-size: 14px;
+	color:#444;
+}
+
+/*mentions*/
+address{
+	font-family: GIL;
+	color: grey;
+	font-size: 11px;
+	font-style: normal;
+}
+
+.region-footer ul li a {
+	padding-top : 50px;
+ }
+
+
+
+
+

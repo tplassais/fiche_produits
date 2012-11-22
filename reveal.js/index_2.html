@@ -1,0 +1,1715 @@
+﻿<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7" lang="fr" dir="ltr" manifest="/BPRI/manifest.appcache"><![endif]-->
+<!--[if (lte IE 6)&(!IEMobile)]><html class="ie6 ie6-7 ie6-8" lang="fr" dir="ltr" manifest="/BPRI/manifest.appcache"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="ie7 ie6-7 ie6-8" lang="fr" dir="ltr" manifest="/BPRI/manifest.appcache"><![endif]-->
+<!--[if (IE 8)&(!IEMobile)]><html class="ie8 ie6-8" lang="fr" dir="ltr" manifest="/BPRI/manifest.appcache"><![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon"
+	href="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/favicon.ico"
+	type="image/vnd.microsoft.icon" />
+
+
+<link rel="stylesheet" href="css/custom.reveal.css">
+
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<!-- pour ipad -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport"
+	content="initial-scale = 1.0, user-scalable = no, width=1024px">
+<!-- fin pour ipad -->
+<title>Reveal.JS</title>
+<style>
+@import
+	url("http://ns359032.ovh.net/BPRI/modules/system/system.base.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/modules/system/system.menus.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/modules/system/system.messages.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/modules/system/system.theme.css?mb824y")
+	;
+</style>
+<style>
+@import
+	url("http://ns359032.ovh.net/BPRI/modules/comment/comment.css?mb824y");
+
+@import
+	url("http://ns359032.ovh.net/BPRI/modules/field/theme/field.css?mb824y")
+	;
+
+@import url("http://ns359032.ovh.net/BPRI/modules/node/node.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/modules/search/search.css?mb824y");
+
+@import url("http://ns359032.ovh.net/BPRI/modules/user/user.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/modules/views/css/views.css?mb824y")
+	;
+</style>
+<style>
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/modules/ctools/css/ctools.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/all/modules/video/css/video.css?mb824y")
+	;
+</style>
+<style>
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/css/at.base.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/css/at.layout.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/css/at.messages.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/forms.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/tables.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/fields.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/page.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/agence.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/html-elements.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/valeurs.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/zone-agence.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/navigation.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/articles.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/comments.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/blocks.css?mb824y")
+	;
+</style>
+<style media="only screen and (max-device-width: 800px)">
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/agence_ipad.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/html-elements_ipad.css?mb824y")
+	;
+</style>
+<style media="only screen and (min-device-width: 800px)">
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/agence_pilier.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/html-elements_pilier.css?mb824y")
+	;
+</style>
+<style media="print">
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/print.css?mb824y")
+	;
+</style>
+<link type="text/css" rel="stylesheet"
+	href="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/bpri.responsive.style.css?mb824y"
+	media="screen" />
+<link type="text/css" rel="stylesheet"
+	href="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/bpri.responsive.gpanels.css?mb824y"
+	media="screen" />
+<style>
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/offres_pilier.css?mb824y")
+	;
+
+@import
+	url("http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/css/offres.css?mb824y")
+	;
+</style>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/all/modules/jquery_update/replace/jquery/jquery.min.js?v=1.5.2"></script>
+<script src="http://ns359032.ovh.net/BPRI/misc/jquery.once.js?v=1.2"></script>
+<script src="http://ns359032.ovh.net/BPRI/misc/drupal.js?mb824y"></script>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/js/vertical-tabs.js?mb824y"></script>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/files/languages/fr_f_lwn1cSpYWLz_EHOLcq4pByJFxdYobGc8sPugLvuss.js?mb824y"></script>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/all/modules/video/js/video.js?mb824y"></script>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/scripts/idle.js?mb824y"></script>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/scripts/iscroll.js?mb824y"></script>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/scripts/jquery-ui.min.js?mb824y"></script>
+<script
+	src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/js/respond.js?mb824y"></script>
+<script>
+	jQuery
+			.extend(
+					Drupal.settings,
+					{
+						"basePath" : "\/BPRI\/",
+						"pathPrefix" : "",
+						"ajaxPageState" : {
+							"theme" : "bpri",
+							"theme_token" : "tgQ0B77QEQGIGy-G-Pyj4JL3KRBiix4XDd3Zx8K6ehA",
+							"js" : {
+								"sites\/all\/modules\/jquery_update\/replace\/jquery\/jquery.min.js" : 1,
+								"misc\/jquery.once.js" : 1,
+								"misc\/drupal.js" : 1,
+								"misc\/vertical-tabs.js" : 1,
+								"public:\/\/languages\/fr_f_lwn1cSpYWLz_EHOLcq4pByJFxdYobGc8sPugLvuss.js" : 1,
+								"sites\/all\/modules\/video\/js\/video.js" : 1,
+								"http:\/\/ns359032.ovh.net\/BPRI\/sites\/agencedufutur\/themes\/bpri\/scripts\/idle.js" : 1,
+								"http:\/\/ns359032.ovh.net\/BPRI\/sites\/agencedufutur\/themes\/bpri\/scripts\/iscroll.js" : 1,
+								"http:\/\/ns359032.ovh.net\/BPRI\/sites\/agencedufutur\/themes\/bpri\/scripts\/jquery-ui.min.js" : 1,
+								"sites\/agencedufutur\/themes\/adaptivetheme\/adaptivetheme\/js\/respond.js" : 1
+							},
+							"css" : {
+								"modules\/system\/system.base.css" : 1,
+								"modules\/system\/system.menus.css" : 1,
+								"modules\/system\/system.messages.css" : 1,
+								"modules\/system\/system.theme.css" : 1,
+								"modules\/comment\/comment.css" : 1,
+								"modules\/field\/theme\/field.css" : 1,
+								"modules\/node\/node.css" : 1,
+								"modules\/search\/search.css" : 1,
+								"modules\/user\/user.css" : 1,
+								"sites\/agencedufutur\/modules\/views\/css\/views.css" : 1,
+								"sites\/agencedufutur\/modules\/ctools\/css\/ctools.css" : 1,
+								"sites\/all\/modules\/video\/css\/video.css" : 1,
+								"sites\/agencedufutur\/themes\/adaptivetheme\/adaptivetheme\/css\/at.base.css" : 1,
+								"sites\/agencedufutur\/themes\/adaptivetheme\/adaptivetheme\/css\/at.layout.css" : 1,
+								"sites\/agencedufutur\/themes\/adaptivetheme\/adaptivetheme\/css\/at.messages.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/forms.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/tables.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/fields.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/page.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/agence.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/html-elements.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/valeurs.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/zone-agence.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/navigation.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/articles.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/comments.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/blocks.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/agence_ipad.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/html-elements_ipad.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/agence_pilier.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/html-elements_pilier.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/print.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/bpri.responsive.style.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/bpri.responsive.gpanels.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/offres_pilier.css" : 1,
+								"sites\/agencedufutur\/themes\/bpri\/css\/offres.css" : 1
+							}
+						}
+					});
+</script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars" onunload="">
+	<div id="skip-link">
+		<a href="#main-content" class="element-invisible element-focusable">Aller
+			au contenu principal</a>
+	</div>
+
+	<div id="page" class="container">
+		<header class="" role="banner"> </header>
+
+
+		<!-- Code PMR Javascript -->
+		<script language="javascript">
+			function submit_pmr_true() {
+				document.getElementById('pmr_bas_bouton').style.display = 'none';
+				jQuery('#pmr_haut')
+						.animate(
+								{
+									height : 'toggle'
+								},
+								1500,
+								function() {
+									localStorage['pmr'] = "true";
+									document.getElementById('pmr_haut').style.display = 'block';
+									document.getElementById('pmr_haut_bouton').style.display = 'inline-block';
+									document.getElementById('pmr_bas').style.display = 'none';
+								});
+
+			}
+
+			function submit_pmr_false() {
+				document.getElementById('pmr_haut_bouton').style.display = 'none';
+				jQuery('#pmr_haut')
+						.animate(
+								{
+									height : 'toggle'
+								},
+								1500,
+								function() {
+									localStorage['pmr'] = "false";
+									document.getElementById('pmr_bas').style.display = 'block';
+									document.getElementById('pmr_bas_bouton').style.display = 'inline-block';
+									document.getElementById('pmr_haut').style.display = 'none';
+								});
+			}
+		</script>
+
+		<!-- Espace du haut -->
+		<div id="espace_du_haut" style="height: 300px"></div>
+
+		<!-- Bouton PMR du haut -->
+		<div id="pmr_haut" style="display: none;">
+			<div class="pmr" style="height: 310px;">
+				<img id="pmr_haut_bouton" class="pmr_bouton"
+					src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/btn_monter_ecran.png"
+					onClick="" />
+			</div>
+		</div>
+
+		<div id="columns">
+			<div class="columns-inner clearfix">
+				<div id="content-column">
+					<div class="content-inner">
+						<section id="main-content" role="main">
+							<header> </header>
+							<div id="content">
+								<div class="region region-content">
+									<div id="block-system-main" class="block block-system">
+										<div class="block-inner clearfix">
+											<div class="block-content content">
+
+												<div id="title-white">
+													<div id="title-white-div">Me lancer</div>
+												</div>
+
+												<div id="myreveal" class="reveal">
+													<div class="slides">
+
+
+														<section>
+															<div id="offre_cloud_carousel_352" class="cloudcarousel">
+																<!-- POPUP OFFRE DU MOMENT -->
+																<div id="popup-offre-moment352"
+																	class="popup popup-offre-moment">
+																	<div class="titre-popup">Offre du moment</div>
+																	<div class="texte-popup">
+																		<div style="font-size: 12px;"></div>
+																	</div>
+																	<div id="bottom-popup-moment" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP ASTUCE -->
+																<div id="popup-astuce352" class="popup popup-astuce">
+																	<div class="titre-popup">Astuce</div>
+																	<div class="texte-popup">Le prêt, versé par Oséo,
+																		est sans garantie ni caution personnelle.</div>
+																	<div id="bottom-popup-astuce" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP QRCODE -->
+																<div id="popup-qrcode352" class="popup popup-qrcode">
+																	<div class="titre-popup">Flashcode</div>
+																	<div class="qrcode-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/files/qrcode_offre/qrcode%20pret%20creation%20entreprise.png" />
+																	</div>
+																	<div class="texte-qrcode-popup">Pour flasher
+																		l&acute;offre, t&eacute;l&eacute;chargez sur votre
+																		Smartphone une application permettant de lire les
+																		flashcodes.</div>
+																	<div id="bottom-popup-qrcode" class="bottom-popup">
+																		<img id="bottom-popup-qrcode-img"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP SIMULATEUR -->
+																<div id="popup-simulateur352"
+																	class="popup popup-simulateur">
+																	<div class="titre-popup">Simulateur</div>
+																	<div class="texte-popup">Simulez et concrétisez
+																		vos projets sur les tablettes à votre disposition dans
+																		l&#039;espace Banque Projet</div>
+																	<div id="bottom-popup-simulateur" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+
+																<div class="partie-droite">
+																	<div class="pub">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/files/15B%20Pret%20a%20la%20creation.jpg" />
+																	</div>
+																	<div class="badges">
+																		<img id="offre_badge_offre_moment352" class="badge1"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge1.png"
+																			alt="Offre du moment"> <img
+																			id="offre_badge_astuce352" class="badge2"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge2.png"
+																			alt="Astuce"> <img id="offre_badge_qrcode352"
+																			class="badge4"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge4.png"
+																			alt="QRCode"> <img
+																			id="offre_badge_simulateur352" class="badge3"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge3.png"
+																			alt="Simulateur">
+																	</div>
+																</div>
+																<div class="titre-offre">
+																	<div class="titre-offre-div">PRET A LA CREATION
+																		D’ENTREPRISE</div>
+																</div>
+
+																<!-- Define up and down buttons. -->
+																<div class="offre-scrollview-buttons">
+																	<div>
+																		<input id="up352" style="display: none"
+																			class="up-arrow" type="image" value="Top"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_haut.png" />
+																	</div>
+																	<div>
+																		<input id="down352" style="display: none"
+																			class="down-arrow" type="image" value="Bottom"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_bas.png" />
+																	</div>
+																</div>
+
+																<div id="wrapper352" class="details-offre">
+																	<div class="scroller">
+																		<p style="color: #2872ae;" class="accroche">
+																			Quel que soit votre secteur d’activité, financez le
+																			démarrage de votre activité<sup>1</sup> en toute
+																			simplicité.
+																		</p>
+																		<p>
+																			</br>
+																			</br>
+																		</p>
+																		<p class="savoir_plus">En savoir plus
+																		<p>
+																		<div class="offre_description">
+																			<p class="cfsegmtxt">
+																				Le Prêt à
+																				<personname productid="la Cr?ation">la
+																				Création</personname>
+																				d’Entreprise<sup>(1)</sup> s’adresse à toutes les
+																				personnes en phase de création ou avec une activité
+																				créée depuis moins de 3 ans.
+																			</p>
+																			<p class="cfsegmtxt"></p>
+																			<p class="cfsegmtxt">Le PCE est :</p>
+																			<p class="cfsegmtxt"></p>
+																			<ul>
+																				<li>
+																					<p>destiné aux entreprises ou personnes
+																						physiques ayant un besoin global inférieur à 45
+																						000 euros</p></li>
+																				<li>
+																					<p>dédié en priorité au financement des
+																						éléments incorporels (constitution du fonds de
+																						roulement, frais de démarrage, etc.)</p></li>
+																				<li>
+																					<p>
+																						compris entre 2 000 et 7 000 €<b> en
+																							accompagnement d’un prêt bancaire</b>
+																					</p></li>
+																				<li>
+																					<p>d’une durée de 5 ans avec un différé de 6
+																						mois</p></li>
+																			</ul>
+																			<p></p>
+																			<p>
+																				Présentation non exhaustive des caractéristiques du
+																				produit ou de l'offre. Nos produits et nos offres
+																				sont soumis aux conditions tarifaires en vigueur et
+																				disponibles sur notre site internet ou en agence.
+																				Nos conseillers se tiennent à votre disposition pour
+																				toute information complémentaire.<i></i>
+																			</p>
+																			<p class="cfsegmtxt"></p>
+																			<address>
+																				<i>(1) Sous réserve d’étude et d’acceptation de
+																					votre dossier.</i>
+																			</address>
+
+																		</div>
+																		<br />
+																		<div class="scroller-div"></div>
+																	</div>
+																</div>
+
+															</div>
+
+
+															<script type="text/javascript">
+																//Cache des popups
+																document
+																		.getElementById('popup-offre-moment352').style.display = 'none';
+																document
+																		.getElementById('popup-astuce352').style.display = 'none';
+																document
+																		.getElementById('popup-qrcode352').style.display = 'none';
+																document
+																		.getElementById('popup-simulateur352').style.display = 'none';
+
+																//Affichage ou non du bouton simulateur
+																if (1 == 1) {
+																	document
+																			.getElementById('offre_badge_simulateur352').style.display = 'block';
+																} else {
+																	document
+																			.getElementById('offre_badge_simulateur352').style.display = 'none';
+																}
+
+																//Affichage ou non du bouton offre du moment
+																if (0 == 1) {
+																	document
+																			.getElementById('offre_badge_offre_moment352').style.display = 'block';
+																} else {
+																	//Cache badge offre du moment
+																	document
+																			.getElementById('offre_badge_offre_moment352').style.display = 'none';
+																	//Adapte la marge gauche du badge astuce
+																	document
+																			.getElementById('offre_badge_astuce352').style.marginLeft = '70px';
+																}
+
+																//SI ON EST SUR L'IPAD
+																if (((navigator.userAgent
+																		.match(/iPhone/i))
+																		|| (navigator.userAgent
+																				.match(/iPod/i)) || (navigator.userAgent
+																		.match(/iPad/i)))) {
+
+																	//Popup offre du moment
+																	if (0 == 1) {
+																		document
+																				.getElementById('offre_badge_offre_moment352').ontouchend = function() {
+																			document
+																					.getElementById('popup-offre-moment352').style.display = 'none';
+																		};
+																		document
+																				.getElementById('offre_badge_offre_moment352').ontouchstart = function() {
+																			document
+																					.getElementById('popup-offre-moment352').style.display = 'block';
+																		};
+																	}
+
+																	//PopUp Astuce
+																	document
+																			.getElementById('offre_badge_astuce352').ontouchend = function() {
+																		document
+																				.getElementById('popup-astuce352').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_astuce352').ontouchstart = function() {
+																		document
+																				.getElementById('popup-astuce352').style.display = 'block';
+																	};
+
+																	//Simulateur		
+																	document
+																			.getElementById('offre_badge_simulateur352').ontouchstart = function() {
+																		self.location = 'http://bprives-recette.issos.net/simulateurs/perspective_internet/IndexConsoInternetEntryAction.do?entite=102&amp;type=505';
+																	};
+
+																	//PopUp qrcode
+																	document
+																			.getElementById('offre_badge_qrcode352').style.display = 'none';
+
+																	//SI ON EST SUR LE PILIER	
+																} else {
+
+																	//Popup offre du moment
+																	if (0 == 1) {
+																		document
+																				.getElementById('offre_badge_offre_moment352').onmouseout = function() {
+																			document
+																					.getElementById('popup-offre-moment352').style.display = 'none';
+																		};
+																		document
+																				.getElementById('offre_badge_offre_moment352').onmouseover = function() {
+																			document
+																					.getElementById('popup-offre-moment352').style.display = 'block';
+																		};
+																	}
+
+																	//PopUp Astuce
+																	document
+																			.getElementById('offre_badge_astuce352').onmouseout = function() {
+																		document
+																				.getElementById('popup-astuce352').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_astuce352').onmouseover = function() {
+																		document
+																				.getElementById('popup-astuce352').style.display = 'block';
+																	};
+
+																	//PopUp qrcode
+																	document
+																			.getElementById('offre_badge_qrcode352').onmouseout = function() {
+																		document
+																				.getElementById('popup-qrcode352').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_qrcode352').onmouseover = function() {
+																		document
+																				.getElementById('popup-qrcode352').style.display = 'block';
+																	};
+
+																	//Simulateur
+																	document
+																			.getElementById('offre_badge_simulateur352').onmouseout = function() {
+																		document
+																				.getElementById('popup-simulateur352').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_simulateur352').onmouseover = function() {
+																		document
+																				.getElementById('popup-simulateur352').style.display = 'block';
+																	};
+																}
+															</script>
+
+
+															<![if !IE]>
+															<script type="text/javascript">
+																var myScroll352;
+																var timeout352;
+																function loaded352() {
+																	/* Initialize scrollable texts */
+																	myScroll352 = new iScroll(
+																			'wrapper352',
+																			{
+																				vScrollbar : false
+																			});
+
+																	/* Up and down arrows binding */
+																	/* Hide if iOS device */
+
+																	if ((navigator.userAgent
+																			.match(/iPad/i))) {
+																		document
+																				.getElementById('down352').style.display = "none";
+																		document
+																				.getElementById('up352').style.display = "none";
+																	} else {
+																		//If there is content to scroll
+																		if (myScroll352.scroller.offsetHeight > myScroll352.wrapper.offsetHeight) {
+
+																			//Bouton UP
+																			document
+																					.getElementById('up352').onmousedown = function() {
+																				if (myScroll352.y < 0) {
+																					myScroll352
+																							.scrollTo(
+																									0,
+																									myScroll352.y + 10,
+																									300);
+																				}
+																				timeout352 = setInterval(
+																						function() {
+																							if (myScroll352.y < 0) {
+																								myScroll352
+																										.scrollTo(
+																												0,
+																												myScroll352.y + 10,
+																												300);
+																							}
+																						},
+																						25);
+																				return false;
+																			};
+
+																			//Bouton DOWN
+																			document
+																					.getElementById('down352').onmousedown = function() {
+
+																				timeout352 = setInterval(
+																						function() {
+																							if (myScroll352.y
+																									+ myScroll352.scroller.offsetHeight > myScroll352.wrapper.offsetHeight) {
+																								myScroll352
+																										.scrollTo(
+																												0,
+																												myScroll352.y - 10,
+																												300);
+																							} else {
+																								clearInterval(timeout352);
+																							}
+																						},
+																						25);
+																				return false;
+																			};
+
+																		} else {
+																			myScroll352
+																					.destroy();
+																			document
+																					.getElementById('down352').style.display = "none";
+																			document
+																					.getElementById('up352').style.display = "none";
+																		}
+																	}
+
+																	jQuery(
+																			document)
+																			.mouseup(
+																					function() {
+																						clearInterval(timeout352);
+																						return false;
+																					});
+																}
+																//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+																document
+																		.addEventListener(
+																				'DOMContentLoaded',
+																				function() {
+																					setTimeout(
+																							loaded352,
+																							300);
+																				},
+																				false);
+
+																/*
+																document.getElementById('down352').onmousedown = downStart();
+																document.getElementById('down352').onmouseup = downStop();
+																
+																function downAction(){
+																	myScroll352.scrollTo(0,myScroll352.y -5,300);
+																}
+																
+																function downStart(){
+																	downAction();
+																	downAction_timeout = setInterval("downAction()",10);
+																}
+																
+																function downStop(){
+																	if (typeof(downAction_timeout) != "undefined") clearTimeout(downAction_timeout);
+																}
+																 */
+															</script>
+															<![endif]>
+														</section>
+														<section>
+															<div id="offre_cloud_carousel_354" class="cloudcarousel">
+																<!-- POPUP OFFRE DU MOMENT -->
+																<div id="popup-offre-moment354"
+																	class="popup popup-offre-moment">
+																	<div class="titre-popup">Offre du moment</div>
+																	<div class="texte-popup">
+																		<div style="font-size: 12px;"></div>
+																	</div>
+																	<div id="bottom-popup-moment" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP ASTUCE -->
+																<div id="popup-astuce354" class="popup popup-astuce">
+																	<div class="titre-popup">Astuce</div>
+																	<div class="texte-popup">La caution personnelle
+																		est limitée à 25% du montant du prêt.</div>
+																	<div id="bottom-popup-astuce" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP QRCODE -->
+																<div id="popup-qrcode354" class="popup popup-qrcode">
+																	<div class="titre-popup">Flashcode</div>
+																	<div class="qrcode-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/files/qrcode_offre/qrcode%20pret%20socama%20transmission%20reprise.png" />
+																	</div>
+																	<div class="texte-qrcode-popup">Pour flasher
+																		l&acute;offre, t&eacute;l&eacute;chargez sur votre
+																		Smartphone une application permettant de lire les
+																		flashcodes.</div>
+																	<div id="bottom-popup-qrcode" class="bottom-popup">
+																		<img id="bottom-popup-qrcode-img"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP SIMULATEUR -->
+																<div id="popup-simulateur354"
+																	class="popup popup-simulateur">
+																	<div class="titre-popup">Simulateur</div>
+																	<div class="texte-popup">Simulez et concrétisez
+																		vos projets sur les tablettes à votre disposition dans
+																		l&#039;espace Banque Projet</div>
+																	<div id="bottom-popup-simulateur" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+
+																<div class="partie-droite">
+																	<div class="pub">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/files/15B%20Pret%20a%20la%20creation_2.jpg" />
+																	</div>
+																	<div class="badges">
+																		<img id="offre_badge_offre_moment354" class="badge1"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge1.png"
+																			alt="Offre du moment"> <img
+																			id="offre_badge_astuce354" class="badge2"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge2.png"
+																			alt="Astuce"> <img id="offre_badge_qrcode354"
+																			class="badge4"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge4.png"
+																			alt="QRCode"> <img
+																			id="offre_badge_simulateur354" class="badge3"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge3.png"
+																			alt="Simulateur">
+																	</div>
+																</div>
+																<div class="titre-offre">
+																	<div class="titre-offre-div">PRET SOCAMA
+																		TRANSMISSION REPRISE</div>
+																</div>
+
+																<!-- Define up and down buttons. -->
+																<div class="offre-scrollview-buttons">
+																	<div>
+																		<input id="up354" style="display: none"
+																			class="up-arrow" type="image" value="Top"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_haut.png" />
+																	</div>
+																	<div>
+																		<input id="down354" style="display: none"
+																			class="down-arrow" type="image" value="Bottom"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_bas.png" />
+																	</div>
+																</div>
+
+																<div id="wrapper354" class="details-offre">
+																	<div class="scroller">
+																		<p style="color: #2872ae;" class="accroche">Commerçants
+																			? Artisans ? Financez la reprise d’une entreprise
+																			avec un prêt conçu pour protéger votre patrimoine
+																			personnel en limitant les risques sur vos biens.</p>
+																		<p>
+																			</br>
+																			</br>
+																		</p>
+																		<p class="savoir_plus">En savoir plus
+																		<p>
+																		<div class="offre_description">
+																			<p class="cfsegmtxt">
+																				Ces opérations de financement <strong>co</strong><b>uvrent
+																					tous les aspects de la reprise d’entreprise</b> :
+																			</p>
+																			<p class="cfsegmtxt"></p>
+																			<ul>
+																				<li>
+																					<p>achat de fond de commerce</p></li>
+																				<li>
+																					<p>rachat de titres de société sous réserve de
+																						détention de la majorité des titres et des droits
+																						de vote</p></li>
+																				<li>
+																					<p>droit au bail…</p></li>
+																			</ul>
+																			<p class="cfsegmtxt"></p>
+																			<p class="cfsegmtxt">Financement jusqu’à 150 000
+																				€ pour une durée comprise entre 48 et 84 mois.</p>
+																			<p class="cfsegmtxt"></p>
+																			<p>
+																				Présentation non exhaustive des caractéristiques du
+																				produit ou de l'offre. Nos produits et nos offres
+																				sont soumis aux conditions tarifaires en vigueur et
+																				disponibles sur notre site internet ou en agence.
+																				Nos conseillers se tiennent à votre disposition pour
+																				toute information complémentaire.<i></i>
+																			</p>
+																			<p class="cfsegmtxt">
+																				<i> </i>
+																			</p>
+																			<address class="cfsegmtxt">
+																				<i>Sous réserve d’acceptation et d’étude de
+																					votre demande.</i>
+																			</address>
+
+																		</div>
+																		<br />
+																		<div class="scroller-div"></div>
+																	</div>
+																</div>
+
+															</div>
+
+
+															<script type="text/javascript">
+																//Cache des popups
+																document
+																		.getElementById('popup-offre-moment354').style.display = 'none';
+																document
+																		.getElementById('popup-astuce354').style.display = 'none';
+																document
+																		.getElementById('popup-qrcode354').style.display = 'none';
+																document
+																		.getElementById('popup-simulateur354').style.display = 'none';
+
+																//Affichage ou non du bouton simulateur
+																if (0 == 1) {
+																	document
+																			.getElementById('offre_badge_simulateur354').style.display = 'block';
+																} else {
+																	document
+																			.getElementById('offre_badge_simulateur354').style.display = 'none';
+																}
+
+																//Affichage ou non du bouton offre du moment
+																if (0 == 1) {
+																	document
+																			.getElementById('offre_badge_offre_moment354').style.display = 'block';
+																} else {
+																	//Cache badge offre du moment
+																	document
+																			.getElementById('offre_badge_offre_moment354').style.display = 'none';
+																	//Adapte la marge gauche du badge astuce
+																	document
+																			.getElementById('offre_badge_astuce354').style.marginLeft = '70px';
+																}
+
+																//SI ON EST SUR L'IPAD
+																if (((navigator.userAgent
+																		.match(/iPhone/i))
+																		|| (navigator.userAgent
+																				.match(/iPod/i)) || (navigator.userAgent
+																		.match(/iPad/i)))) {
+
+																	//Popup offre du moment
+																	if (0 == 1) {
+																		document
+																				.getElementById('offre_badge_offre_moment354').ontouchend = function() {
+																			document
+																					.getElementById('popup-offre-moment354').style.display = 'none';
+																		};
+																		document
+																				.getElementById('offre_badge_offre_moment354').ontouchstart = function() {
+																			document
+																					.getElementById('popup-offre-moment354').style.display = 'block';
+																		};
+																	}
+
+																	//PopUp Astuce
+																	document
+																			.getElementById('offre_badge_astuce354').ontouchend = function() {
+																		document
+																				.getElementById('popup-astuce354').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_astuce354').ontouchstart = function() {
+																		document
+																				.getElementById('popup-astuce354').style.display = 'block';
+																	};
+
+																	//Simulateur		
+																	document
+																			.getElementById('offre_badge_simulateur354').ontouchstart = function() {
+																		self.location = '';
+																	};
+
+																	//PopUp qrcode
+																	document
+																			.getElementById('offre_badge_qrcode354').style.display = 'none';
+
+																	//SI ON EST SUR LE PILIER	
+																} else {
+
+																	//Popup offre du moment
+																	if (0 == 1) {
+																		document
+																				.getElementById('offre_badge_offre_moment354').onmouseout = function() {
+																			document
+																					.getElementById('popup-offre-moment354').style.display = 'none';
+																		};
+																		document
+																				.getElementById('offre_badge_offre_moment354').onmouseover = function() {
+																			document
+																					.getElementById('popup-offre-moment354').style.display = 'block';
+																		};
+																	}
+
+																	//PopUp Astuce
+																	document
+																			.getElementById('offre_badge_astuce354').onmouseout = function() {
+																		document
+																				.getElementById('popup-astuce354').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_astuce354').onmouseover = function() {
+																		document
+																				.getElementById('popup-astuce354').style.display = 'block';
+																	};
+
+																	//PopUp qrcode
+																	document
+																			.getElementById('offre_badge_qrcode354').onmouseout = function() {
+																		document
+																				.getElementById('popup-qrcode354').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_qrcode354').onmouseover = function() {
+																		document
+																				.getElementById('popup-qrcode354').style.display = 'block';
+																	};
+
+																	//Simulateur
+																	document
+																			.getElementById('offre_badge_simulateur354').onmouseout = function() {
+																		document
+																				.getElementById('popup-simulateur354').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_simulateur354').onmouseover = function() {
+																		document
+																				.getElementById('popup-simulateur354').style.display = 'block';
+																	};
+																}
+															</script>
+
+
+															<![if !IE]>
+															<script type="text/javascript">
+																var myScroll354;
+																var timeout354;
+																function loaded354() {
+																	/* Initialize scrollable texts */
+																	myScroll354 = new iScroll(
+																			'wrapper354',
+																			{
+																				vScrollbar : false
+																			});
+
+																	/* Up and down arrows binding */
+																	/* Hide if iOS device */
+
+																	if ((navigator.userAgent
+																			.match(/iPad/i))) {
+																		document
+																				.getElementById('down354').style.display = "none";
+																		document
+																				.getElementById('up354').style.display = "none";
+																	} else {
+																		//If there is content to scroll
+																		if (myScroll354.scroller.offsetHeight > myScroll354.wrapper.offsetHeight) {
+
+																			//Bouton UP
+																			document
+																					.getElementById('up354').onmousedown = function() {
+																				if (myScroll354.y < 0) {
+																					myScroll354
+																							.scrollTo(
+																									0,
+																									myScroll354.y + 10,
+																									300);
+																				}
+																				timeout354 = setInterval(
+																						function() {
+																							if (myScroll354.y < 0) {
+																								myScroll354
+																										.scrollTo(
+																												0,
+																												myScroll354.y + 10,
+																												300);
+																							}
+																						},
+																						25);
+																				return false;
+																			};
+
+																			//Bouton DOWN
+																			document
+																					.getElementById('down354').onmousedown = function() {
+
+																				timeout354 = setInterval(
+																						function() {
+																							if (myScroll354.y
+																									+ myScroll354.scroller.offsetHeight > myScroll354.wrapper.offsetHeight) {
+																								myScroll354
+																										.scrollTo(
+																												0,
+																												myScroll354.y - 10,
+																												300);
+																							} else {
+																								clearInterval(timeout354);
+																							}
+																						},
+																						25);
+																				return false;
+																			};
+
+																		} else {
+																			myScroll354
+																					.destroy();
+																			document
+																					.getElementById('down354').style.display = "none";
+																			document
+																					.getElementById('up354').style.display = "none";
+																		}
+																	}
+
+																	jQuery(
+																			document)
+																			.mouseup(
+																					function() {
+																						clearInterval(timeout354);
+																						return false;
+																					});
+																}
+																//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+																document
+																		.addEventListener(
+																				'DOMContentLoaded',
+																				function() {
+																					setTimeout(
+																							loaded354,
+																							300);
+																				},
+																				false);
+
+																/*
+																document.getElementById('down354').onmousedown = downStart();
+																document.getElementById('down354').onmouseup = downStop();
+																
+																function downAction(){
+																	myScroll354.scrollTo(0,myScroll354.y -5,300);
+																}
+																
+																function downStart(){
+																	downAction();
+																	downAction_timeout = setInterval("downAction()",10);
+																}
+																
+																function downStop(){
+																	if (typeof(downAction_timeout) != "undefined") clearTimeout(downAction_timeout);
+																}
+																 */
+															</script>
+															<![endif]>
+														</section>
+														<section>
+															<div id="offre_cloud_carousel_292" class="cloudcarousel">
+																<!-- POPUP OFFRE DU MOMENT -->
+																<div id="popup-offre-moment292"
+																	class="popup popup-offre-moment">
+																	<div class="titre-popup">Offre du moment</div>
+																	<div class="texte-popup">
+																		<div style="font-size: 12px;"></div>
+																	</div>
+																	<div id="bottom-popup-moment" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP ASTUCE -->
+																<div id="popup-astuce292" class="popup popup-astuce">
+																	<div class="titre-popup">Astuce</div>
+																	<div class="texte-popup">Un seul numéro de
+																		téléphone quelle que soit votre demande : 01 40 25 51
+																		28 (coût d’un appel local depuis un poste fixe, hors
+																		surcoût éventuel selon opérateur).</div>
+																	<div id="bottom-popup-astuce" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP QRCODE -->
+																<div id="popup-qrcode292" class="popup popup-qrcode">
+																	<div class="titre-popup">Flashcode</div>
+																	<div class="qrcode-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/files/qrcode_offre/qrcode%20allo%20assistance%20pro.png" />
+																	</div>
+																	<div class="texte-qrcode-popup">Pour flasher
+																		l&acute;offre, t&eacute;l&eacute;chargez sur votre
+																		Smartphone une application permettant de lire les
+																		flashcodes.</div>
+																	<div id="bottom-popup-qrcode" class="bottom-popup">
+																		<img id="bottom-popup-qrcode-img"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+																<!-- POPUP SIMULATEUR -->
+																<div id="popup-simulateur292"
+																	class="popup popup-simulateur">
+																	<div class="titre-popup">Simulateur</div>
+																	<div class="texte-popup">Simulez et concrétisez
+																		vos projets sur les tablettes à votre disposition dans
+																		l&#039;espace Banque Projet</div>
+																	<div id="bottom-popup-simulateur" class="bottom-popup">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+																			alt="">
+																	</div>
+																</div>
+
+
+																<div class="partie-droite">
+																	<div class="pub">
+																		<img
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/files/1A-Allo%20assistance.jpg" />
+																	</div>
+																	<div class="badges">
+																		<img id="offre_badge_offre_moment292" class="badge1"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge1.png"
+																			alt="Offre du moment"> <img
+																			id="offre_badge_astuce292" class="badge2"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge2.png"
+																			alt="Astuce"> <img id="offre_badge_qrcode292"
+																			class="badge4"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge4.png"
+																			alt="QRCode"> <img
+																			id="offre_badge_simulateur292" class="badge3"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge3.png"
+																			alt="Simulateur">
+																	</div>
+																</div>
+																<div class="titre-offre">
+																	<div class="titre-offre-div">ALLO ASSISTANCE PRO</div>
+																</div>
+
+																<!-- Define up and down buttons. -->
+																<div class="offre-scrollview-buttons">
+																	<div>
+																		<input id="up292" style="display: none"
+																			class="up-arrow" type="image" value="Top"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_haut.png" />
+																	</div>
+																	<div>
+																		<input id="down292" style="display: none"
+																			class="down-arrow" type="image" value="Bottom"
+																			src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_bas.png" />
+																	</div>
+																</div>
+
+																<div id="wrapper292" class="details-offre">
+																	<div class="scroller">
+																		<p style="color: #2872ae;" class="accroche">Restez
+																			serein grâce à notre service d’informations et de
+																			conseils par téléphone et bénéficiez d’une assistance
+																			en cas de sinistre ou d’incident dans vos locaux
+																			professionnels.</p>
+																		<p>
+																			</br>
+																			</br>
+																		</p>
+																		<p class="savoir_plus">En savoir plus
+																		<p>
+																		<div class="offre_description">
+																			<p>
+																				<b>Des spécialistes à votre service<i><sup>(1)</sup>
+																				</i> </b>sur simple appel téléphonique du lundi au samedi de
+																				7 heures à 21 heures en cas d’incident ou de
+																				sinistre et de 9 heures à 20 heures pour toute
+																				demande d’information.
+																			</p>
+																			<p>
+																				<b> </b>
+																			</p>
+																			<p>
+																				<b>Des informations et des conseils<i><sup>(1)</sup>
+																				</i> </b>sur des problématiques variées:
+																			</p>
+																			<ul>
+																				<li>
+																					<p>La création et la transmission d’entreprise
+																						;</p></li>
+																				<li>
+																					<p>La gestion du personnel ;</p></li>
+																				<li>
+																					<p>La fiscalité des entreprises et des
+																						particuliers ;</p></li>
+																				<li>
+																					<p>Le droit commercial et des sociétés ;</p></li>
+																				<li>
+																					<p>Le marketing et la communication ;</p></li>
+																				<li>
+																					<p>La spécificité de l’artisan / commerçant.</p></li>
+																			</ul>
+																			<p></p>
+																			<p>
+																				<b>Des garanties d’assistance</b><sup>1</sup>
+																				indispensables :
+																			</p>
+																			<ul>
+																				<li>
+																					<p>En cas d’incident relatif à vos locaux
+																						(perte ou vol des clés, panne d’un appareil ou
+																						dysfonctionnement d’une installation) ;</p></li>
+																				<li>
+																					<p>En cas de sinistre survenu dans vos locaux
+																						(incendie, explosion, dégâts des eaux, vol ou
+																						vandalisme).</p></li>
+																			</ul>
+																			<p></p>
+																			<p>Présentation non exhaustive des
+																				caractéristiques du produit ou de l'offre. Nos
+																				produits et nos offres sont soumis aux conditions
+																				tarifaires en vigueur et disponibles sur notre site
+																				internet ou en agence. Nos conseillers se tiennent à
+																				votre disposition pour toute information
+																				complémentaire.</p>
+																			<p></p>
+																			<address>(1) Selon les dispositions des
+																				conditions contractuelles.</address>
+																			<p></p>
+																			<address>
+																				Allo Assistance Pro est un contrat assuré par : <br />
+																				<b>Assurances Banque Populaire IARD </b><br />
+																				Société Anonyme à directoire et conseil de
+																				surveillance au capital de 30 000 000 euros
+																				entièrement versé<br /> 401 380 472 RCS NIORT -
+																				Code APE 6512 Z - N° TVA intracommunautaire FR 15
+																				401 380 472 Entreprise régie par le Code des
+																				Assurances Siège social : Chaban 79180 CHAURAY
+																				Adresse postale : Chauray - BP 8410 - 79024 Niort
+																				cedex 9
+																			</address>
+																			<address>Entreprise régie par le Code des
+																				assurances Siège social : 30 avenue Pierre
+																				Mendès-France – 75013 Paris</address>
+																			<address>Autorité de contrôle prudentiel :
+																				61, rue Taitbout – 75436 Paris Cedex 9</address>
+																			<address></address>
+																			<address>
+																				<b>MONDIAL ASSISTANCE FRANCE SAS</b>
+																			</address>
+																			<address>Société par Actions Simplifiée au
+																				capital de 7 584 076,86 euros - 490 381 753 RCS
+																				Paris - Siret : 490 381 753 00014. Société de
+																				courtage d’assurances immatriculée à l’ORIAS
+																				(www.orias.fr) sous le numéro 07 026 669 - 54, rue
+																				de Londres - 75008 Paris</address>
+
+																		</div>
+																		<br />
+																		<div class="scroller-div"></div>
+																	</div>
+																</div>
+
+															</div>
+
+
+															<script type="text/javascript">
+																//Cache des popups
+																document
+																		.getElementById('popup-offre-moment292').style.display = 'none';
+																document
+																		.getElementById('popup-astuce292').style.display = 'none';
+																document
+																		.getElementById('popup-qrcode292').style.display = 'none';
+																document
+																		.getElementById('popup-simulateur292').style.display = 'none';
+
+																//Affichage ou non du bouton simulateur
+																if (0 == 1) {
+																	document
+																			.getElementById('offre_badge_simulateur292').style.display = 'block';
+																} else {
+																	document
+																			.getElementById('offre_badge_simulateur292').style.display = 'none';
+																}
+
+																//Affichage ou non du bouton offre du moment
+																if (0 == 1) {
+																	document
+																			.getElementById('offre_badge_offre_moment292').style.display = 'block';
+																} else {
+																	//Cache badge offre du moment
+																	document
+																			.getElementById('offre_badge_offre_moment292').style.display = 'none';
+																	//Adapte la marge gauche du badge astuce
+																	document
+																			.getElementById('offre_badge_astuce292').style.marginLeft = '70px';
+																}
+
+																//SI ON EST SUR L'IPAD
+																if (((navigator.userAgent
+																		.match(/iPhone/i))
+																		|| (navigator.userAgent
+																				.match(/iPod/i)) || (navigator.userAgent
+																		.match(/iPad/i)))) {
+
+																	//Popup offre du moment
+																	if (0 == 1) {
+																		document
+																				.getElementById('offre_badge_offre_moment292').ontouchend = function() {
+																			document
+																					.getElementById('popup-offre-moment292').style.display = 'none';
+																		};
+																		document
+																				.getElementById('offre_badge_offre_moment292').ontouchstart = function() {
+																			document
+																					.getElementById('popup-offre-moment292').style.display = 'block';
+																		};
+																	}
+
+																	//PopUp Astuce
+																	document
+																			.getElementById('offre_badge_astuce292').ontouchend = function() {
+																		document
+																				.getElementById('popup-astuce292').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_astuce292').ontouchstart = function() {
+																		document
+																				.getElementById('popup-astuce292').style.display = 'block';
+																	};
+
+																	//Simulateur		
+																	document
+																			.getElementById('offre_badge_simulateur292').ontouchstart = function() {
+																		self.location = '';
+																	};
+
+																	//PopUp qrcode
+																	document
+																			.getElementById('offre_badge_qrcode292').style.display = 'none';
+
+																	//SI ON EST SUR LE PILIER	
+																} else {
+
+																	//Popup offre du moment
+																	if (0 == 1) {
+																		document
+																				.getElementById('offre_badge_offre_moment292').onmouseout = function() {
+																			document
+																					.getElementById('popup-offre-moment292').style.display = 'none';
+																		};
+																		document
+																				.getElementById('offre_badge_offre_moment292').onmouseover = function() {
+																			document
+																					.getElementById('popup-offre-moment292').style.display = 'block';
+																		};
+																	}
+
+																	//PopUp Astuce
+																	document
+																			.getElementById('offre_badge_astuce292').onmouseout = function() {
+																		document
+																				.getElementById('popup-astuce292').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_astuce292').onmouseover = function() {
+																		document
+																				.getElementById('popup-astuce292').style.display = 'block';
+																	};
+
+																	//PopUp qrcode
+																	document
+																			.getElementById('offre_badge_qrcode292').onmouseout = function() {
+																		document
+																				.getElementById('popup-qrcode292').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_qrcode292').onmouseover = function() {
+																		document
+																				.getElementById('popup-qrcode292').style.display = 'block';
+																	};
+
+																	//Simulateur
+																	document
+																			.getElementById('offre_badge_simulateur292').onmouseout = function() {
+																		document
+																				.getElementById('popup-simulateur292').style.display = 'none';
+																	};
+																	document
+																			.getElementById('offre_badge_simulateur292').onmouseover = function() {
+																		document
+																				.getElementById('popup-simulateur292').style.display = 'block';
+																	};
+																}
+															</script>
+
+
+															<![if !IE]>
+															<script type="text/javascript">
+																var myScroll292;
+																var timeout292;
+																function loaded292() {
+																	/* Initialize scrollable texts */
+																	myScroll292 = new iScroll(
+																			'wrapper292',
+																			{
+																				vScrollbar : false
+																			});
+
+																	/* Up and down arrows binding */
+																	/* Hide if iOS device */
+
+																	if ((navigator.userAgent
+																			.match(/iPad/i))) {
+																		document
+																				.getElementById('down292').style.display = "none";
+																		document
+																				.getElementById('up292').style.display = "none";
+																	} else {
+																		//If there is content to scroll
+																		if (myScroll292.scroller.offsetHeight > myScroll292.wrapper.offsetHeight) {
+
+																			//Bouton UP
+																			document
+																					.getElementById('up292').onmousedown = function() {
+																				if (myScroll292.y < 0) {
+																					myScroll292
+																							.scrollTo(
+																									0,
+																									myScroll292.y + 10,
+																									300);
+																				}
+																				timeout292 = setInterval(
+																						function() {
+																							if (myScroll292.y < 0) {
+																								myScroll292
+																										.scrollTo(
+																												0,
+																												myScroll292.y + 10,
+																												300);
+																							}
+																						},
+																						25);
+																				return false;
+																			};
+
+																			//Bouton DOWN
+																			document
+																					.getElementById('down292').onmousedown = function() {
+
+																				timeout292 = setInterval(
+																						function() {
+																							if (myScroll292.y
+																									+ myScroll292.scroller.offsetHeight > myScroll292.wrapper.offsetHeight) {
+																								myScroll292
+																										.scrollTo(
+																												0,
+																												myScroll292.y - 10,
+																												300);
+																							} else {
+																								clearInterval(timeout292);
+																							}
+																						},
+																						25);
+																				return false;
+																			};
+
+																		} else {
+																			myScroll292
+																					.destroy();
+																			document
+																					.getElementById('down292').style.display = "none";
+																			document
+																					.getElementById('up292').style.display = "none";
+																		}
+																	}
+
+																	jQuery(
+																			document)
+																			.mouseup(
+																					function() {
+																						clearInterval(timeout292);
+																						return false;
+																					});
+																}
+																//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+																document
+																		.addEventListener(
+																				'DOMContentLoaded',
+																				function() {
+																					setTimeout(
+																							loaded292,
+																							300);
+																				},
+																				false);
+
+																/*
+																document.getElementById('down292').onmousedown = downStart();
+																document.getElementById('down292').onmouseup = downStop();
+																
+																function downAction(){
+																	myScroll292.scrollTo(0,myScroll292.y -5,300);
+																}
+																
+																function downStart(){
+																	downAction();
+																	downAction_timeout = setInterval("downAction()",10);
+																}
+																
+																function downStop(){
+																	if (typeof(downAction_timeout) != "undefined") clearTimeout(downAction_timeout);
+																}
+																 */
+															</script>
+															<![endif]>
+														</section>
+													</div>
+
+												</div>
+
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer role="contentinfo">
+			<div class="region region-footer">
+				<nav id="block-menu-menu-navigation-base-p1dos"
+					class="block block-menu" role="navigation">
+					<div class="block-inner clearfix">
+						<h2 class="block-title">navigation_base_p1dos</h2>
+						<div class="block-content content">
+							<ul class="menu clearfix">
+								<li class="first leaf"><a href="/BPRI/univers"
+									id="bouton_accueil">Accueil</a>
+								</li>
+								<li class="last leaf"><a href="/BPRI/" id="bouton_retour">Retour</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<nav id="block-menu-menu-navigation-besoin-p1dos"
+					class="block block-menu" role="navigation">
+					<div class="block-inner clearfix">
+						<h2 class="block-title">navigation_besoin_p1dos</h2>
+						<div class="block-content content">
+							<ul class="menu clearfix">
+								<li class="first last leaf"><a href="/BPRI/bons-plans"
+									id="btn_bonsplans">Bons plans</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</footer>
+
+		<!-- Bouton PMR du bas -->
+		<div id="pmr_bas" style="display: none;">
+			<div class="pmr">
+				<img id="pmr_bas_bouton" class="pmr_bouton"
+					src="http://ns359032.ovh.net/BPRI/sites/agencedufutur/themes/bpri/images/all/btn_descendre_ecran.png"
+					onClick="submit_pmr_true()" />
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<!-- Add reveal.js -->
+
+	<script src="js/custom.reveal.js"></script>
+
+	<script>
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls : false,
+			progress : false,
+			history : false,
+			center : false,
+			loop : true,
+			keyboard : true,
+			overview : false,
+
+			// Transition style (see /css/theme)
+			//theme: null,
+
+			//theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+			transition : Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none  // Linear/concave/default/cube
+
+		});
+	</script>
+
+
+
+
+</body>
+</html>
