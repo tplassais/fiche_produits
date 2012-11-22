@@ -1,0 +1,1036 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Carousel Demo Page</title>
+  <!-- Load local jQuery, removing access to $ (use jQuery, not $). -->
+  <script src="libs/jquery/jquery.js"></script>
+  <link rel="stylesheet" href="src/responsive-carousel.css" media="screen">
+  <link rel="stylesheet" href="src/responsive-carousel.slide.css" media="screen">
+  <link rel="stylesheet" href="assets/demostyles.css">
+  <!-- Load local lib and tests. -->
+  <script src="src/responsive-carousel.js"></script>
+  <script src="src/responsive-carousel.touch.js"></script>
+ <script src="src/responsive-carousel.drag.js"></script>
+ 
+ 		<title>LIVRET A | Agence du futur</title>
+<style>@import url("../BPRI/modules/system/system.base.css?mb824y");
+@import url("../BPRI/modules/system/system.menus.css?mb824y");
+@import url("../BPRI/modules/system/system.messages.css?mb824y");
+@import url("../BPRI/modules/system/system.theme.css?mb824y");</style>
+<style>@import url("../BPRI/modules/comment/comment.css?mb824y");
+@import url("../BPRI/modules/field/theme/field.css?mb824y");
+@import url("../BPRI/modules/node/node.css?mb824y");
+@import url("../BPRI/modules/search/search.css?mb824y");
+@import url("../BPRI/modules/user/user.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/modules/views/css/views.css?mb824y");</style>
+<style>@import url("../BPRI/sites/agencedufutur/modules/ctools/css/ctools.css?mb824y");
+@import url("../BPRI/sites/all/modules/video/css/video.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/modules/print/css/printlinks.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/chrome.css?mb824y");
+@import url("../BPRI/modules/shortcut/shortcut.css?mb824y");
+@import url("../BPRI/modules/toolbar/toolbar.css?mb824y");</style>
+<style>@import url("../BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/css/at.base.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/css/at.layout.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/css/at.messages.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/forms.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/tables.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/fields.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/page.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/agence.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/html-elements.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/valeurs.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/zone-agence.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/navigation.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/articles.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/comments.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/blocks.css?mb824y");</style>
+<style media="only screen and (max-device-width: 800px)">@import url("../BPRI/sites/agencedufutur/themes/bpri/css/agence_ipad.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/html-elements_ipad.css?mb824y");</style>
+<style media="only screen and (min-device-width: 800px)">@import url("../BPRI/sites/agencedufutur/themes/bpri/css/agence_pilier.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/html-elements_pilier.css?mb824y");</style>
+<style media="print">@import url("../BPRI/sites/agencedufutur/themes/bpri/css/print.css?mb824y");</style>
+<link type="text/css" rel="stylesheet" href="../BPRI/sites/agencedufutur/themes/bpri/css/bpri.responsive.style.css?mb824y" media="screen" />
+<link type="text/css" rel="stylesheet" href="../BPRI/sites/agencedufutur/themes/bpri/css/bpri.responsive.gpanels.css?mb824y" media="screen" />
+<style>@import url("../BPRI/sites/agencedufutur/themes/bpri/css/offres_pilier.css?mb824y");
+@import url("../BPRI/sites/agencedufutur/themes/bpri/css/offres.css?mb824y");</style>
+<script src="../BPRI/sites/all/modules/jquery_update/replace/jquery/jquery.min.js?v=1.5.2"></script>
+<script src="../BPRI/misc/jquery.once.js?v=1.2"></script>
+<script src="../BPRI/misc/drupal.js?mb824y"></script>
+<script src="../BPRI/sites/all/modules/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="../BPRI/sites/agencedufutur/files/languages/fr_f_lwn1cSpYWLz_EHOLcq4pByJFxdYobGc8sPugLvuss.js?mb824y"></script>
+<script src="../BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/js/vertical-tabs.js?mb824y"></script>
+<script src="../BPRI/sites/all/modules/video/js/video.js?mb824y"></script>
+<script src="../BPRI/sites/agencedufutur/themes/bpri/scripts/idle.js?mb824y"></script>
+<script src="../BPRI/sites/agencedufutur/themes/bpri/scripts/jquery-ui.min.js?mb824y"></script>
+<script src="../BPRI/sites/agencedufutur/themes/bpri/scripts/iscroll.js?mb824y"></script>
+<script src="../BPRI/modules/toolbar/toolbar.js?mb824y"></script>
+<script src="../BPRI/sites/agencedufutur/themes/adaptivetheme/adaptivetheme/js/respond.js?mb824y"></script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		
+		
+ 
+ 
+</head>
+<body>
+<div id="page" class="container">
+
+<!-- Espace du haut -->
+<div id="espace_du_haut" style="height: 300px">
+</div>
+
+
+<div id="content">
+
+
+	<div class="carousel" data-transition="slide">
+
+		<div>
+			<div id="offre_cloud_carousel_306" class="cloudcarousel">
+	<!-- POPUP OFFRE DU MOMENT -->
+	<div id="popup-offre-moment306" class="popup popup-offre-moment" style="display: none; ">
+		<div class="titre-popup">
+			Offre du moment
+		</div>
+		<div class="texte-popup">
+						<div style="font-size: 12px;">
+							</div>
+		</div>
+		<div id="bottom-popup-moment" class="bottom-popup">
+			<img src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	<!-- POPUP ASTUCE -->
+	<div id="popup-astuce306" class="popup popup-astuce" style="display: none; ">
+		<div class="titre-popup">
+			Astuce
+		</div>
+		<div class="texte-popup">
+			Pour vos achats de moins de 20 €, optez pour le paiement « sans contact », plus rapide.		</div>
+		<div id="bottom-popup-astuce" class="bottom-popup">
+			<img src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	<!-- POPUP QRCODE -->
+	<div id="popup-qrcode306" class="popup popup-qrcode" style="display: none; ">
+		<div class="titre-popup">
+			Flashcode
+		</div>
+		<div class="qrcode-popup">
+			<img src="../BPRI/">		</div>
+		<div class="texte-qrcode-popup">
+			Pour flasher l´offre, téléchargez sur votre Smartphone une application permettant de lire les flashcodes.
+		</div>
+		<div id="bottom-popup-qrcode" class="bottom-popup">
+			<img id="bottom-popup-qrcode-img" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	<!-- POPUP SIMULATEUR -->
+	<div id="popup-simulateur306" class="popup popup-simulateur" style="display: none; ">
+		<div class="titre-popup">
+			Simulateur
+		</div>
+		<div class="texte-popup">
+			Simulez et concrétisez vos projets sur les tablettes à votre disposition dans l'espace Banque Projet 		</div>
+		<div id="bottom-popup-simulateur" class="bottom-popup">
+			<img src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	
+	<div class="partie-droite">
+		<div class="pub">
+			<img src="../BPRI/sites/agencedufutur/files/5-Carte%20premier%20v2.jpg">		</div>
+		<div class="badges">
+			<img id="offre_badge_offre_moment306" class="badge1" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge1.png" alt="Offre du moment" style="display: none; ">
+			<img id="offre_badge_astuce306" class="badge2" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge2.png" alt="Astuce" style="margin-left: 70px; ">
+			<img id="offre_badge_qrcode306" class="badge4" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge4.png" alt="QRCode">
+			<img id="offre_badge_simulateur306" class="badge3" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge3.png" alt="Simulateur" style="display: none; ">
+		</div>
+	</div>
+	<div class="titre-offre"><div class="titre-offre-div">CARTE VISA PREMIER</div></div>
+	
+	<!-- Define up and down buttons. -->
+	<div class="offre-scrollview-buttons">	
+		<div>
+			<input id="up306" style="display:none" class="up-arrow" type="image" value="Top" src="../BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_haut.png">
+		</div>
+		<div>
+			<input id="down306" style="display:none" class="down-arrow" type="image" value="Bottom" src="../BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_bas.png">
+		</div>
+	</div>
+
+	<div id="wrapper306" class="details-offre" style="overflow-x: hidden; overflow-y: hidden; ">
+		<div class="scroller" style="-webkit-transition-property: -webkit-transform; -webkit-transform-origin-x: 0px; -webkit-transform-origin-y: 0px; -webkit-transition-duration: 0ms; -webkit-transform: translate3d(0px, 0px, 0px) scale(1); ">
+			<p style="color: #2872ae;" class="accroche">Profitez d’une capacité d’opérations élargie pour régler vos dépenses et effectuer des retraits en France comme à l’étranger.<br>Bénéficiez d’une protection complète<sup>1</sup> pour vos déplacements dans le monde entier, pour vous et votre famille.
+</p>
+			<p><br><br></p>
+			<p class="savoir_plus">En savoir plus</p><p>
+			</p><div class="offre_description">
+			 <p class="cfsegmtxt"><b>Assurance et assistance</b>&nbsp;</p>
+<ul><li>
+<p>Retard de transport, perte ou vol de vos bagages, dommages aux véhicule de location, modification ou annulation de voyage, garantie neige et montagne… autant d’aléas pour lesquels vous serez couverts<sup>(2)</sup> grâce à&nbsp;la carte Visa Premier.</p>
+</li>
+<li>
+<p>Un problème de santé&nbsp;? A votre disposition, une assistance<sup>(2)</sup> pour le rapatriement, la prise en charge des frais d’hébergement, l’avance des frais d’hospitalisation, l’envoi de médicaments, etc…</p>
+</li>
+</ul><p class="cfsegmtxt">&nbsp;</p>
+<p class="cfsegmtxt"><b>Avantages exclusifs</b></p>
+<p>Vous avez accès à des avantages exclusifs tout au long de l'année auprès de partenaires spécialisés dans l'univers du voyage, des sorties culturelles, des divertissements, de l'hôtellerie et de la location de véhicules (accessibles sur le site www.visapremier.fr.)</p>
+<p>&nbsp;</p>
+<p>Présentation non exhaustive des caractéristiques du produit ou de l'offre.&nbsp;Nos produits et nos offres&nbsp;sont soumis aux conditions tarifaires en vigueur et disponibles sur notre site internet ou en agence.&nbsp;Nos conseillers se tiennent à votre disposition pour toute information complémentaire.&nbsp;</p>
+<address>&nbsp;</address>
+<address>(1) Les garanties d'assurances et d'assistance sont prises en charge par Axa Assurances, Axa France Vie, Europ Assistance et Chartis Europe.</address>
+<address>(2) Voir conditions dans la notice d’information disponible en agence.</address>
+ 			
+			</div>
+			<br>
+			<div class="scroller-div">
+			</div>
+		</div>
+	</div>
+	
+</div>
+		
+		<script type="text/javascript">
+
+	//Cache des popups
+	document.getElementById('popup-offre-moment306').style.display = 'none';
+	document.getElementById('popup-astuce306').style.display = 'none';
+	document.getElementById('popup-qrcode306').style.display = 'none';
+	document.getElementById('popup-simulateur306').style.display = 'none';
+	
+	//Affichage ou non du bouton simulateur
+	if (0 == 1) {
+		document.getElementById('offre_badge_simulateur306').style.display = 'block';
+	}else{
+		document.getElementById('offre_badge_simulateur306').style.display = 'none';
+	}
+	
+	//Affichage ou non du bouton offre du moment
+	if (0 == 1) {
+		document.getElementById('offre_badge_offre_moment306').style.display = 'block';	
+	}else{
+		//Cache badge offre du moment
+		document.getElementById('offre_badge_offre_moment306').style.display = 'none';
+		//Adapte la marge gauche du badge astuce
+		document.getElementById('offre_badge_astuce306').style.marginLeft = '70px';
+	}
+	
+	//SI ON EST SUR L'IPAD
+	if (((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)))) {
+	
+		//Popup offre du moment
+		if (0 == 1) {			
+			document.getElementById('offre_badge_offre_moment306').ontouchend = function() {
+				document.getElementById('popup-offre-moment306').style.display = 'none';
+			};			
+			document.getElementById('offre_badge_offre_moment306').ontouchstart = function() {
+				document.getElementById('popup-offre-moment306').style.display = 'block';
+			};			
+		}
+		
+		//PopUp Astuce
+		document.getElementById('offre_badge_astuce306').ontouchend = function() {
+			document.getElementById('popup-astuce306').style.display = 'none';
+		};
+		document.getElementById('offre_badge_astuce306').ontouchstart = function() {
+			document.getElementById('popup-astuce306').style.display = 'block';
+		};		
+		
+		//Simulateur		
+		document.getElementById('offre_badge_simulateur306').ontouchstart = function(){
+			self.location = '';
+		};
+		
+		//PopUp qrcode
+		document.getElementById('offre_badge_qrcode306').style.display = 'none';
+		
+	//SI ON EST SUR LE PILIER	
+	}else{
+	
+		//Popup offre du moment
+		if (0 == 1) {			
+			document.getElementById('offre_badge_offre_moment306').onmouseout = function() {
+				document.getElementById('popup-offre-moment306').style.display = 'none';
+			};			
+			document.getElementById('offre_badge_offre_moment306').onmouseover = function() {
+				document.getElementById('popup-offre-moment306').style.display = 'block';
+			};
+		}
+		
+		//PopUp Astuce
+		document.getElementById('offre_badge_astuce306').onmouseout = function() {
+			document.getElementById('popup-astuce306').style.display = 'none';
+		};
+		document.getElementById('offre_badge_astuce306').onmouseover = function() {
+			document.getElementById('popup-astuce306').style.display = 'block';
+		};
+		
+		//PopUp qrcode
+		document.getElementById('offre_badge_qrcode306').onmouseout = function() {
+			document.getElementById('popup-qrcode306').style.display = 'none';
+		};
+		document.getElementById('offre_badge_qrcode306').onmouseover = function() {
+			document.getElementById('popup-qrcode306').style.display = 'block';
+		};
+		
+		//Simulateur
+		document.getElementById('offre_badge_simulateur306').onmouseout = function() {
+			document.getElementById('popup-simulateur306').style.display = 'none';
+		};
+		document.getElementById('offre_badge_simulateur306').onmouseover = function() {
+			document.getElementById('popup-simulateur306').style.display = 'block';
+		};
+	}
+	
+</script>
+
+
+<![if !IE]>
+<script type="text/javascript">
+	var myScroll306;
+	var timeout306;
+	function loaded306() {
+		/* Initialize scrollable texts */
+		myScroll306 = new iScroll('wrapper306', {vScrollbar: false });
+		
+		/* Up and down arrows binding */
+		/* Hide if iOS device */
+		
+		if ((navigator.userAgent.match(/iPad/i))) {
+				document.getElementById('down306').style.display = "none";
+				document.getElementById('up306').style.display = "none";
+		}
+		else {
+			//If there is content to scroll
+			if (myScroll306.scroller.offsetHeight > myScroll306.wrapper.offsetHeight) {
+			
+				//Bouton UP
+				document.getElementById('up306').onmousedown = function() {
+					if(myScroll306.y < 0) {
+						myScroll306.scrollTo(0,myScroll306.y +10,300);
+					}
+					timeout306 = setInterval(function () {
+						if(myScroll306.y < 0) {
+						myScroll306.scrollTo(0,myScroll306.y +10,300);
+						}
+					}, 25);
+					return false;	
+				};
+				
+				//Bouton DOWN
+				document.getElementById('down306').onmousedown = function() {
+				
+					timeout306 = setInterval(function () {					
+						if( myScroll306.y + myScroll306.scroller.offsetHeight > myScroll306.wrapper.offsetHeight){
+							myScroll306.scrollTo(0,myScroll306.y -10,300);
+						}else{
+							clearInterval(timeout306);
+						}
+					}, 25);
+					return false;				
+				};
+				
+
+			}
+			else {
+				myScroll306.destroy();
+				document.getElementById('down306').style.display = "none";
+				document.getElementById('up306').style.display = "none";
+			}
+		}
+		
+		
+		jQuery(document).mouseup(function () {
+			clearInterval(timeout306);
+			return false;
+		});
+	}
+	//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded306, 300); }, false);	
+	
+	/*
+	document.getElementById('down306').onmousedown = downStart();
+	document.getElementById('down306').onmouseup = downStop();
+	
+	function downAction(){
+		myScroll306.scrollTo(0,myScroll306.y -5,300);
+	}
+	
+	function downStart(){
+		downAction();
+		downAction_timeout = setInterval("downAction()",10);
+	}
+	
+	function downStop(){
+		if (typeof(downAction_timeout) != "undefined") clearTimeout(downAction_timeout);
+	}
+	*/
+	
+</script>
+<![endif]>
+		</div>
+
+
+	    <div>
+	        
+			<div id="offre_cloud_carousel_220" class="cloudcarousel">
+	<!-- POPUP OFFRE DU MOMENT -->
+	<div id="popup-offre-moment220" class="popup popup-offre-moment"
+		style="display: none;">
+		<div class="titre-popup">Offre du moment</div>
+		<div class="texte-popup">
+			<div style="font-size: 12px;"></div>
+		</div>
+		<div id="bottom-popup-moment" class="bottom-popup">
+			<img
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+				alt="">
+		</div>
+	</div>
+
+	<!-- POPUP ASTUCE -->
+	<div id="popup-astuce220" class="popup popup-astuce"
+		style="display: none;">
+		<div class="titre-popup">Astuce</div>
+		<div class="texte-popup">Epargnez sans y penser : effectuez des
+			versements programmés ! Choisissez librement le montant et la
+			périodicité, avec un minimum de 10€.</div>
+		<div id="bottom-popup-astuce" class="bottom-popup">
+			<img
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+				alt="">
+		</div>
+	</div>
+
+	<!-- POPUP QRCODE -->
+	<div id="popup-qrcode220" class="popup popup-qrcode"
+		style="display: none;">
+		<div class="titre-popup">Flashcode</div>
+		<div class="qrcode-popup">
+			<img
+				src="../BPRI/sites/agencedufutur/files/qrcode_offre/livret%20A%201.jpeg">
+		</div>
+		<div class="texte-qrcode-popup">Pour flasher l´offre,
+			téléchargez sur votre Smartphone une application permettant de lire
+			les flashcodes.</div>
+		<div id="bottom-popup-qrcode" class="bottom-popup">
+			<img id="bottom-popup-qrcode-img"
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+				alt="">
+		</div>
+	</div>
+
+	<!-- POPUP SIMULATEUR -->
+	<div id="popup-simulateur220" class="popup popup-simulateur"
+		style="display: none;">
+		<div class="titre-popup">Simulateur</div>
+		<div class="texte-popup">Simulez et concrétisez vos projets sur
+			les tablettes à votre disposition dans l'espace Banque Projet</div>
+		<div id="bottom-popup-simulateur" class="bottom-popup">
+			<img
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png"
+				alt="">
+		</div>
+	</div>
+
+
+	<div class="partie-droite">
+		<div class="pub">
+			<img
+				src="../BPRI/sites/agencedufutur/files/17-Livret%20A_1.jpg">
+		</div>
+		<div class="badges">
+			<img id="offre_badge_offre_moment220" class="badge1"
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge1.png"
+				alt="Offre du moment" style="display: none;"> <img
+				id="offre_badge_astuce220" class="badge2"
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge2.png"
+				alt="Astuce" style="margin-left: 70px;"> <img
+				id="offre_badge_qrcode220" class="badge4"
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge4.png"
+				alt="QRCode"> <img id="offre_badge_simulateur220"
+				class="badge3"
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge3.png"
+				alt="Simulateur" style="display: block;">
+		</div>
+	</div>
+	<div class="titre-offre">
+		<div class="titre-offre-div">LIVRET A</div>
+	</div>
+
+	<!-- Define up and down buttons. -->
+	<div class="offre-scrollview-buttons">
+		<div>
+			<input id="up220" style="display: none" class="up-arrow" type="image"
+				value="Top"
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_haut.png">
+		</div>
+		<div>
+			<input id="down220" style="display: none" class="down-arrow"
+				type="image" value="Bottom"
+				src="../BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_bas.png">
+		</div>
+	</div>
+
+	<div id="wrapper220" class="details-offre"
+		style="overflow-x: hidden; overflow-y: hidden;">
+		<div class="scroller"
+			style="-webkit-transition-property: -webkit-transform; -webkit-transform-origin-x: 0px; -webkit-transform-origin-y: 0px; -webkit-transform: translate3d(0px, 0px, 0px); -webkit-transition-duration: 0ms;">
+			<p style="color: #2872ae;" class="accroche">Avec le livret A,
+				vous épargnez simplement et votre épargne est disponible et
+				défiscalisée.</p>
+			<p>
+				<br>
+				<br>
+			</p>
+			<p class="savoir_plus">En savoir plus</p>
+			<p></p>
+			<div class="offre_description">
+				<p>Les caractéristiques du Livret A&nbsp;:</p>
+				<ul>
+					<li>
+						<p>
+							<strong>Bénéficiaires</strong>&nbsp;: personnes physiques
+							majeures ou mineures.&nbsp;Un seul livret par personne est
+							autorisé.&nbsp;
+						</p></li>
+					<li>
+						<p>
+							<strong>Dépôt&nbsp;minimum</strong> : 10 €
+						</p></li>
+					<li>
+						<p>
+							<strong>Plafond&nbsp;</strong>: 15&nbsp;300 € hors intérêts
+						</p></li>
+					<li>
+						<p>
+							<strong>Versement</strong>&nbsp;: libre, dans la limite du
+							plafond
+						</p>
+						<p>(minimum versement de 10€)</p></li>
+					<li>
+						<p>
+							<strong>Retrait</strong>&nbsp;: libre, avec un solde minimum de
+							10€
+						</p></li>
+					<li>
+						<p>
+							<strong>Durée</strong>&nbsp;: illimitée
+						</p></li>
+					<li>
+						<p>
+							<b>Fiscalité </b>: intérêts exonérés d'impôts et de prélèvements
+							sociaux
+						</p></li>
+				</ul>
+				<p>&nbsp;</p>
+				<p>Présentation non exhaustive des caractéristiques du produit
+					ou de l'offre.&nbsp;Nos produits et nos offres&nbsp;sont soumis aux
+					conditions tarifaires en vigueur et disponibles sur notre site
+					internet ou en agence.&nbsp;Nos conseillers se tiennent à votre
+					disposition pour toute information complémentaire.</p>
+
+			</div>
+			<br>
+			<div class="scroller-div"></div>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	//Cache des popups
+	document.getElementById('popup-offre-moment220').style.display = 'none';
+	document.getElementById('popup-astuce220').style.display = 'none';
+	document.getElementById('popup-qrcode220').style.display = 'none';
+	document.getElementById('popup-simulateur220').style.display = 'none';
+
+	//Affichage ou non du bouton simulateur
+	if (1 == 1) {
+		document.getElementById('offre_badge_simulateur220').style.display = 'block';
+	} else {
+		document.getElementById('offre_badge_simulateur220').style.display = 'none';
+	}
+
+	//Affichage ou non du bouton offre du moment
+	if (0 == 1) {
+		document.getElementById('offre_badge_offre_moment220').style.display = 'block';
+	} else {
+		//Cache badge offre du moment
+		document.getElementById('offre_badge_offre_moment220').style.display = 'none';
+		//Adapte la marge gauche du badge astuce
+		document.getElementById('offre_badge_astuce220').style.marginLeft = '70px';
+	}
+
+	//SI ON EST SUR L'IPAD
+	if (((navigator.userAgent.match(/iPhone/i))
+			|| (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent
+			.match(/iPad/i)))) {
+
+		//Popup offre du moment
+		if (0 == 1) {
+			document.getElementById('offre_badge_offre_moment220').ontouchend = function() {
+				document.getElementById('popup-offre-moment220').style.display = 'none';
+			};
+			document.getElementById('offre_badge_offre_moment220').ontouchstart = function() {
+				document.getElementById('popup-offre-moment220').style.display = 'block';
+			};
+		}
+
+		//PopUp Astuce
+		document.getElementById('offre_badge_astuce220').ontouchend = function() {
+			document.getElementById('popup-astuce220').style.display = 'none';
+		};
+		document.getElementById('offre_badge_astuce220').ontouchstart = function() {
+			document.getElementById('popup-astuce220').style.display = 'block';
+		};
+
+		//Simulateur		
+		document.getElementById('offre_badge_simulateur220').ontouchstart = function() {
+			self.location = 'http://bprives-recette.issos.net/simulateurs/perspective_internet/EpargneInternetEntryAction.do  ';
+		};
+
+		//PopUp qrcode
+		document.getElementById('offre_badge_qrcode220').style.display = 'none';
+
+		//SI ON EST SUR LE PILIER	
+	} else {
+
+		//Popup offre du moment
+		if (0 == 1) {
+			document.getElementById('offre_badge_offre_moment220').onmouseout = function() {
+				document.getElementById('popup-offre-moment220').style.display = 'none';
+			};
+			document.getElementById('offre_badge_offre_moment220').onmouseover = function() {
+				document.getElementById('popup-offre-moment220').style.display = 'block';
+			};
+		}
+
+		//PopUp Astuce
+		document.getElementById('offre_badge_astuce220').onmouseout = function() {
+			document.getElementById('popup-astuce220').style.display = 'none';
+		};
+		document.getElementById('offre_badge_astuce220').onmouseover = function() {
+			document.getElementById('popup-astuce220').style.display = 'block';
+		};
+
+		//PopUp qrcode
+		document.getElementById('offre_badge_qrcode220').onmouseout = function() {
+			document.getElementById('popup-qrcode220').style.display = 'none';
+		};
+		document.getElementById('offre_badge_qrcode220').onmouseover = function() {
+			document.getElementById('popup-qrcode220').style.display = 'block';
+		};
+
+		//Simulateur
+		document.getElementById('offre_badge_simulateur220').onmouseout = function() {
+			document.getElementById('popup-simulateur220').style.display = 'none';
+		};
+		document.getElementById('offre_badge_simulateur220').onmouseover = function() {
+			document.getElementById('popup-simulateur220').style.display = 'block';
+		};
+	}
+</script>
+
+
+<![if !IE]>
+<script type="text/javascript">
+	var myScroll220;
+	var timeout220;
+	function loaded220() {
+		/* Initialize scrollable texts */
+		myScroll220 = new iScroll('wrapper220', {
+			vScrollbar : false
+		});
+
+		/* Up and down arrows binding */
+		/* Hide if iOS device */
+
+		if ((navigator.userAgent.match(/iPad/i))) {
+			document.getElementById('down220').style.display = "none";
+			document.getElementById('up220').style.display = "none";
+		} else {
+			//If there is content to scroll
+			if (myScroll220.scroller.offsetHeight > myScroll220.wrapper.offsetHeight) {
+
+				//Bouton UP
+				document.getElementById('up220').onmousedown = function() {
+					if (myScroll220.y < 0) {
+						myScroll220.scrollTo(0, myScroll220.y + 10, 300);
+					}
+					timeout220 = setInterval(function() {
+						if (myScroll220.y < 0) {
+							myScroll220.scrollTo(0, myScroll220.y + 10, 300);
+						}
+					}, 25);
+					return false;
+				};
+
+				//Bouton DOWN
+				document.getElementById('down220').onmousedown = function() {
+
+					timeout220 = setInterval(
+							function() {
+								if (myScroll220.y
+										+ myScroll220.scroller.offsetHeight > myScroll220.wrapper.offsetHeight) {
+									myScroll220.scrollTo(0, myScroll220.y - 10,
+											300);
+								} else {
+									clearInterval(timeout220);
+								}
+							}, 25);
+					return false;
+				};
+
+			} else {
+				myScroll220.destroy();
+				document.getElementById('down220').style.display = "none";
+				document.getElementById('up220').style.display = "none";
+			}
+		}
+
+		jQuery(document).mouseup(function() {
+			clearInterval(timeout220);
+			return false;
+		});
+	}
+	//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	document.addEventListener('DOMContentLoaded', function() {
+		setTimeout(loaded220, 300);
+	}, false);
+
+	/*
+	document.getElementById('down220').onmousedown = downStart();
+	document.getElementById('down220').onmouseup = downStop();
+	
+	function downAction(){
+		myScroll220.scrollTo(0,myScroll220.y -5,300);
+	}
+	
+	function downStart(){
+		downAction();
+		downAction_timeout = setInterval("downAction()",10);
+	}
+	
+	function downStop(){
+		if (typeof(downAction_timeout) != "undefined") clearTimeout(downAction_timeout);
+	}
+	 */
+</script>
+<![endif]>
+			
+	    </div>
+	    <div>
+	        <div id="offre_cloud_carousel_296" class="cloudcarousel">
+	<!-- POPUP OFFRE DU MOMENT -->
+	<div id="popup-offre-moment296" class="popup popup-offre-moment" style="display: none; ">
+		<div class="titre-popup">
+			Offre du moment
+		</div>
+		<div class="texte-popup">
+						<div style="font-size: 12px;">
+							</div>
+		</div>
+		<div id="bottom-popup-moment" class="bottom-popup">
+			<img src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	<!-- POPUP ASTUCE -->
+	<div id="popup-astuce296" class="popup popup-astuce" style="display: none; ">
+		<div class="titre-popup">
+			Astuce
+		</div>
+		<div class="texte-popup">
+			Vous souhaitez gérer vous-même votre contrat, ou bien vous préférez être accompagné ?  Gestion libre ou gestion pilotée sont à votre disposition. 		</div>
+		<div id="bottom-popup-astuce" class="bottom-popup">
+			<img src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	<!-- POPUP QRCODE -->
+	<div id="popup-qrcode296" class="popup popup-qrcode" style="display: none; ">
+		<div class="titre-popup">
+			Flashcode
+		</div>
+		<div class="qrcode-popup">
+			<img src="../BPRI/sites/agencedufutur/files/qrcode_offre/qrcode%20assurance%20vie.png">		</div>
+		<div class="texte-qrcode-popup">
+			Pour flasher l´offre, téléchargez sur votre Smartphone une application permettant de lire les flashcodes.
+		</div>
+		<div id="bottom-popup-qrcode" class="bottom-popup">
+			<img id="bottom-popup-qrcode-img" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	<!-- POPUP SIMULATEUR -->
+	<div id="popup-simulateur296" class="popup popup-simulateur" style="display: none; ">
+		<div class="titre-popup">
+			Simulateur
+		</div>
+		<div class="texte-popup">
+			Simulez et concrétisez vos projets sur les tablettes à votre disposition dans l'espace Banque Projet 		</div>
+		<div id="bottom-popup-simulateur" class="bottom-popup">
+			<img src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/bottom_popup.png" alt="">
+		</div>
+	</div>
+	
+	
+	<div class="partie-droite">
+		<div class="pub">
+			<img src="../BPRI/sites/agencedufutur/files/21B-Assurance%20vieV2.jpg">		</div>
+		<div class="badges">
+			<img id="offre_badge_offre_moment296" class="badge1" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge1.png" alt="Offre du moment" style="display: none; ">
+			<img id="offre_badge_astuce296" class="badge2" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge2.png" alt="Astuce" style="margin-left: 70px; ">
+			<img id="offre_badge_qrcode296" class="badge4" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge4.png" alt="QRCode">
+			<img id="offre_badge_simulateur296" class="badge3" src="../BPRI/sites/agencedufutur/themes/bpri/images/p1d_offres/badge3.png" alt="Simulateur" style="display: block; ">
+		</div>
+	</div>
+	<div class="titre-offre"><div class="titre-offre-div">ASSURANCE VIE</div></div>
+	
+	<!-- Define up and down buttons. -->
+	<div class="offre-scrollview-buttons">	
+		<div>
+			<input id="up296" style="display:none" class="up-arrow" type="image" value="Top" src="../BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_haut.png">
+		</div>
+		<div>
+			<input id="down296" style="display:none" class="down-arrow" type="image" value="Bottom" src="../BPRI/sites/agencedufutur/themes/bpri/images/all/fleche_bas.png">
+		</div>
+	</div>
+
+	<div id="wrapper296" class="details-offre" style="overflow-x: hidden; overflow-y: hidden; ">
+		<div class="scroller" style="-webkit-transition-property: -webkit-transform; -webkit-transform-origin-x: 0px; -webkit-transform-origin-y: 0px; -webkit-transform: translate3d(0px, 0px, 0px); -webkit-transition-duration: 0ms; ">
+			<p style="color: #2872ae;" class="accroche">Avec l’assurance vie, vous profitez d’une enveloppe juridique et fiscale avantageuse, vous permettant de faire fructifier votre capital. Vos proches sont également protégés lors de la désignation des bénéficiaires.</p>
+			<p><br><br></p>
+			<p class="savoir_plus">En savoir plus</p><p>
+			</p><div class="offre_description">
+			 <p>Placement préféré des épargnants, l’assurance vie vous permet de remplir des <b>objectifs patrimoniaux</b> variés&nbsp;:</p>
+<ul><li>
+<p>constituer ou développer votre épargne</p>
+</li>
+<li>
+<p>profiter des perspectives de rendement des marchés boursiers ou de la sécurité du fonds en euros</p>
+</li>
+<li>
+<p>cautionner un montage immobilier</p>
+</li>
+<li>
+<p>préparer votre retraite, et bénéficier de revenus complémentaires le moment venu</p>
+</li>
+<li>
+<p>transmettre votre patrimoine avec une fiscalité réduite</p>
+</li>
+<li>
+<p>assurer l’avenir de vos proches</p>
+</li>
+<li>
+<p>protéger votre conjoint</p>
+</li>
+</ul><p>&nbsp;</p>
+<p>Présentation non exhaustive des caractéristiques du produit ou de l'offre.&nbsp;Nos produits et nos offres&nbsp;sont soumis aux conditions tarifaires en vigueur et disponibles sur notre site internet ou en agence.&nbsp;Nos conseillers se tiennent à votre disposition pour toute information complémentaire.</p>
+ 			
+			</div>
+			<br>
+			<div class="scroller-div">
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+<script type="text/javascript">
+
+	//Cache des popups
+	document.getElementById('popup-offre-moment296').style.display = 'none';
+	document.getElementById('popup-astuce296').style.display = 'none';
+	document.getElementById('popup-qrcode296').style.display = 'none';
+	document.getElementById('popup-simulateur296').style.display = 'none';
+	
+	//Affichage ou non du bouton simulateur
+	if (1 == 1) {
+		document.getElementById('offre_badge_simulateur296').style.display = 'block';
+	}else{
+		document.getElementById('offre_badge_simulateur296').style.display = 'none';
+	}
+	
+	//Affichage ou non du bouton offre du moment
+	if (0 == 1) {
+		document.getElementById('offre_badge_offre_moment296').style.display = 'block';	
+	}else{
+		//Cache badge offre du moment
+		document.getElementById('offre_badge_offre_moment296').style.display = 'none';
+		//Adapte la marge gauche du badge astuce
+		document.getElementById('offre_badge_astuce296').style.marginLeft = '70px';
+	}
+	
+	//SI ON EST SUR L'IPAD
+	if (((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)))) {
+	
+		//Popup offre du moment
+		if (0 == 1) {			
+			document.getElementById('offre_badge_offre_moment296').ontouchend = function() {
+				document.getElementById('popup-offre-moment296').style.display = 'none';
+			};			
+			document.getElementById('offre_badge_offre_moment296').ontouchstart = function() {
+				document.getElementById('popup-offre-moment296').style.display = 'block';
+			};			
+		}
+		
+		//PopUp Astuce
+		document.getElementById('offre_badge_astuce296').ontouchend = function() {
+			document.getElementById('popup-astuce296').style.display = 'none';
+		};
+		document.getElementById('offre_badge_astuce296').ontouchstart = function() {
+			document.getElementById('popup-astuce296').style.display = 'block';
+		};		
+		
+		//Simulateur		
+		document.getElementById('offre_badge_simulateur296').ontouchstart = function(){
+			self.location = 'http://bprives-recette.issos.net/simulateurs/convergence_internet/proxyInternet.do?dispatch=bilanRetraiteInternet&amp;entite=102';
+		};
+		
+		//PopUp qrcode
+		document.getElementById('offre_badge_qrcode296').style.display = 'none';
+		
+	//SI ON EST SUR LE PILIER	
+	}else{
+	
+		//Popup offre du moment
+		if (0 == 1) {			
+			document.getElementById('offre_badge_offre_moment296').onmouseout = function() {
+				document.getElementById('popup-offre-moment296').style.display = 'none';
+			};			
+			document.getElementById('offre_badge_offre_moment296').onmouseover = function() {
+				document.getElementById('popup-offre-moment296').style.display = 'block';
+			};
+		}
+		
+		//PopUp Astuce
+		document.getElementById('offre_badge_astuce296').onmouseout = function() {
+			document.getElementById('popup-astuce296').style.display = 'none';
+		};
+		document.getElementById('offre_badge_astuce296').onmouseover = function() {
+			document.getElementById('popup-astuce296').style.display = 'block';
+		};
+		
+		//PopUp qrcode
+		document.getElementById('offre_badge_qrcode296').onmouseout = function() {
+			document.getElementById('popup-qrcode296').style.display = 'none';
+		};
+		document.getElementById('offre_badge_qrcode296').onmouseover = function() {
+			document.getElementById('popup-qrcode296').style.display = 'block';
+		};
+		
+		//Simulateur
+		document.getElementById('offre_badge_simulateur296').onmouseout = function() {
+			document.getElementById('popup-simulateur296').style.display = 'none';
+		};
+		document.getElementById('offre_badge_simulateur296').onmouseover = function() {
+			document.getElementById('popup-simulateur296').style.display = 'block';
+		};
+	}
+	
+</script>
+
+
+<![if !IE]>
+<script type="text/javascript">
+	var myScroll296;
+	var timeout296;
+	function loaded296() {
+		/* Initialize scrollable texts */
+		myScroll296 = new iScroll('wrapper296', {vScrollbar: false });
+		
+		/* Up and down arrows binding */
+		/* Hide if iOS device */
+		
+		if ((navigator.userAgent.match(/iPad/i))) {
+				document.getElementById('down296').style.display = "none";
+				document.getElementById('up296').style.display = "none";
+		}
+		else {
+			//If there is content to scroll
+			if (myScroll296.scroller.offsetHeight > myScroll296.wrapper.offsetHeight) {
+			
+				//Bouton UP
+				document.getElementById('up296').onmousedown = function() {
+					if(myScroll296.y < 0) {
+						myScroll296.scrollTo(0,myScroll296.y +10,300);
+					}
+					timeout296 = setInterval(function () {
+						if(myScroll296.y < 0) {
+						myScroll296.scrollTo(0,myScroll296.y +10,300);
+						}
+					}, 25);
+					return false;	
+				};
+				
+				//Bouton DOWN
+				document.getElementById('down296').onmousedown = function() {
+				
+					timeout296 = setInterval(function () {					
+						if( myScroll296.y + myScroll296.scroller.offsetHeight > myScroll296.wrapper.offsetHeight){
+							myScroll296.scrollTo(0,myScroll296.y -10,300);
+						}else{
+							clearInterval(timeout296);
+						}
+					}, 25);
+					return false;				
+				};
+				
+
+			}
+			else {
+				myScroll296.destroy();
+				document.getElementById('down296').style.display = "none";
+				document.getElementById('up296').style.display = "none";
+			}
+		}
+		
+		
+		jQuery(document).mouseup(function () {
+			clearInterval(timeout296);
+			return false;
+		});
+	}
+	//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded296, 300); }, false);	
+	
+	/*
+	document.getElementById('down296').onmousedown = downStart();
+	document.getElementById('down296').onmouseup = downStop();
+	
+	function downAction(){
+		myScroll296.scrollTo(0,myScroll296.y -5,300);
+	}
+	
+	function downStart(){
+		downAction();
+		downAction_timeout = setInterval("downAction()",10);
+	}
+	
+	function downStop(){
+		if (typeof(downAction_timeout) != "undefined") clearTimeout(downAction_timeout);
+	}
+	*/
+	
+</script>
+<![endif]>
+	    </div>
+		
+	</div>
+
+		
+		</div>
+	</div>	
+	
+	
+</body>
+</html>
