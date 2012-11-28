@@ -8,6 +8,12 @@
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
+ /* To disable the scrollbar */
+ html,body
+{
+overflow:hidden;
+}
+ 
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
@@ -378,6 +384,42 @@
 }
 
 
+/*********************************************
+ * LINEAR TRANSITION
+ *********************************************/
+
+.reveal.linear .slides>section.past {
+	-webkit-transform: translate(-85%, 0);
+	   -moz-transform: translate(-85%, 0);
+	    -ms-transform: translate(-85%, 0);
+	     -o-transform: translate(-85%, 0);
+	        transform: translate(-85%, 0);
+}
+.reveal.linear .slides>section.future {
+	-webkit-transform: translate(85%, 0);
+	   -moz-transform: translate(85%, 0);
+	    -ms-transform: translate(85%, 0);
+	     -o-transform: translate(85%, 0);
+	        transform: translate(85%, 0);
+}
+
+.reveal.linear .slides>section.past1 {
+opacity: 0.25;
+	-webkit-transform: translate(-85%, 0);
+	   -moz-transform: translate(-85%, 0);
+	    -ms-transform: translate(-85%, 0);
+	     -o-transform: translate(-85%, 0);
+	        transform: translate(-85%, 0);
+}
+.reveal.linear .slides>section.future1 {
+opacity: 0.25;
+	-webkit-transform: translate(85%, 0);
+	   -moz-transform: translate(85%, 0);
+	    -ms-transform: translate(85%, 0);
+	     -o-transform: translate(85%, 0);
+	        transform: translate(85%, 0);
+}
+
 
 /*********************************************
  * DEFAULT TRANSITION
@@ -493,42 +535,6 @@
 	        transform: translate(0, 150%);
 }
 
-
-/*********************************************
- * LINEAR TRANSITION
- *********************************************/
-
-.reveal.linear .slides>section.past {
-	-webkit-transform: translate(-85%, 0);
-	   -moz-transform: translate(-85%, 0);
-	    -ms-transform: translate(-85%, 0);
-	     -o-transform: translate(-85%, 0);
-	        transform: translate(-85%, 0);
-}
-.reveal.linear .slides>section.future {
-	-webkit-transform: translate(85%, 0);
-	   -moz-transform: translate(85%, 0);
-	    -ms-transform: translate(85%, 0);
-	     -o-transform: translate(85%, 0);
-	        transform: translate(85%, 0);
-}
-
-.reveal.linear .slides>section.past1 {
-opacity: 0.25;
-	-webkit-transform: translate(-85%, 0);
-	   -moz-transform: translate(-85%, 0);
-	    -ms-transform: translate(-85%, 0);
-	     -o-transform: translate(-85%, 0);
-	        transform: translate(-85%, 0);
-}
-.reveal.linear .slides>section.future1 {
-opacity: 0.25;
-	-webkit-transform: translate(85%, 0);
-	   -moz-transform: translate(85%, 0);
-	    -ms-transform: translate(85%, 0);
-	     -o-transform: translate(85%, 0);
-	        transform: translate(85%, 0);
-}
 
 /*********************************************
  * CUBE TRANSITION
